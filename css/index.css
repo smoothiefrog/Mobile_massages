@@ -1,10 +1,56 @@
 #header {
 	border-width: 0 0 1px 0;
 	border-style: solid;
+	border-color: #d8fae9;
 	padding: 0 6% 0 3%;
 	background-color: #fff;
 }
-
-.ui-header {
-	padding-right: 20px;
+.head-title{
+	display: flex;
+}
+.head-title-left{
+	color: #64d2a3;
+	margin-right: 10px;
+	font-weight: 100;
+}
+.head-title-right{
+	color: #28ab8b;
+	font-weight: 500;
+}
+.fn-just-takeup{
+	width: 50px;
+}
+.fn-color-green{
+	color: #64d2a3;
+}
+/*#64d2a3 #28ab8b*/
+.ui-main{
+	width: 100%;
+	height: 800px;
+}
+.ui-bottom{
+	height: 160px;
+	background: #28ab8b;
+}
+.ui-bottom-title{
+	padding-top: 45px;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	font-size: 18px;
+}
+.ui-bottom-body{
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.ui-bottom-title-left{
+	margin-right: 10px;
+	font-weight: 100;
+}
+.ui-bottom-title-right{
+	font-weight: 600;
 }
