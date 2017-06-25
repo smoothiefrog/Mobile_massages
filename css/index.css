@@ -25,8 +25,27 @@
 }
 /*#64d2a3 #28ab8b*/
 .ui-main{
+	margin-top: 50px;
+	width: 260px;
+	height: 438px;
+	margin-left: 41%;
+	display: flex;
+	flex-direction: column;
+	color: #aaa;
+}
+.ui-main-title{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 40px;
+}
+.ui-main-email{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.ui-input{
 	width: 100%;
-	height: 800px;
+	height: 35px;
+	border: solid 1px #ddd;
 }
 .ui-bottom{
 	height: 160px;
@@ -53,4 +72,64 @@
 }
 .ui-bottom-title-right{
 	font-weight: 600;
+}
+
+.ui-main-face{
+	margin-top: 20px;
+	width: 100%;
+	height: 30px;
+	font-size: 15px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 30px;
+	color: #fff;
+	border: none;
+	background: #055fb9;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	cursor: pointer;
+}
+.ui-main-face:hover {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+  	transition: 1s all;
+}
+
+.ui-main-forgot{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.ui-main-forgot a{
+	color: #aaa;
+}
+.ui-main-forgot a:hover{
+	text-decoration: none;
+	color: #aaa;
+}
+.ui-main-face a{
+	color: #fff;
+}
+.ui-main-face a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.btn{
+	height: 50px;
+	font-size: 30px;
+	
+	color: #fff;
+	border: none;
+	background: #64d2a3;
+	width: 100%;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	cursor: pointer;
 }
