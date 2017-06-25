@@ -1,0 +1,369 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-06-23 22:51:08
+ * @version $Id$
+ */
+
+ 
+.home-top {
+	width:100%;
+	padding:1% 0 0 0;
+}
+.carousel-inner img {
+	width:100%;
+	border:0;
+
+}
+.carousel-control {
+	padding-top:16%;
+}
+.left {
+	
+	background: rgba(1,1,1,0);
+
+}
+.right {
+	
+	background: rgba(1,1,1,0);
+	
+}
+.home-line {
+	width:100%;
+}
+.home-booking {
+	text-align: center;
+	width:100%;
+}
+.home-name {
+	font-size: 1em;
+	color:#5FD0A1;
+	text-align: center;
+	letter-spacing: -0.01em;
+}
+.home-mobile-name {
+	padding:3% 0 0% 0;
+}
+.home-mobile-book-a-spa {
+	padding:0% 0 4% 0;
+	font-size:0.9em;
+	transform: scale(0.9);
+	letter-spacing: -0.01em;
+}
+.home-mobile-time {
+	padding:1% 0 1% 0;
+}
+.home-mobile-hour {
+	padding:0.6% 0 0.5% 0;
+}
+.home-booking select {
+	width:55%;
+	padding:1% 0% 1% 2%;
+	color:#C1C1C1;
+	font-size: 0.8em;
+	transform: scale(0.85);
+}
+button {
+	color:white;
+	background: #64D2A3;
+	width:55%;
+	text-align: center;
+	padding:2% 0 2% 0;
+	border:0;
+	font-size: 0.9em;
+	transform:scale(0.7);
+}
+
+.home-mobile-book {
+	padding:3% 0 6% 0;
+}
+.home-border {
+	width:100%;
+	background: #D8FBE7;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.border {
+	box-sizing: border-box;
+	width:33.3%;
+	padding:0;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	justify-content: center;
+}
+
+.border-img {
+	width:21%;
+	height:60%;
+	background: #D8FBE7;
+	overflow: hidden;
+	margin: 5% 0 0 0;
+}
+.border-img-cal {
+	width:20%;
+	height:31%;
+	background: #D8FBE7;
+	overflow: hidden;
+	margin: 16% 0 0 0;
+}
+.fa-home {
+	position: relative;
+	top:-18.5%;
+	left:-138%;
+	color:#5FD0A1;
+	border:0;
+	transform: scale(0.4);
+}
+.fa-codiepie {
+	position: relative;
+	top:-14%;
+	left:-150%;
+	color:#5FD0A1;
+	border:0;
+	transform: scale(0.35);
+}
+.fa-calculator {
+	position: relative;
+	top:-77.9%;
+	left:-140%;
+	color:#5FD0A1;
+	transform: scale(0.45);
+	margin:0;
+}
+
+.border-msg {
+	width:79%;
+	height: 40%;
+	background: #D8FBE7;
+	padding:30% 0 0 5%;
+	margin:0;
+	font-size: 0.8em;
+	-webkit-transform-origin: 0% 0%;
+    -webkit-transform:scale(0.7);
+}
+
+
+.professional-therapist {
+	text-align: center;
+	padding:10% 0 4% 0;
+}
+.therapist-img-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.therapist-img {
+	width:15%;
+	padding:1% 0% 1% 0%;
+	margin:0 5% 0 1%;
+	align-items: center;
+}
+.therapist-img img {
+	width:130%;
+}
+.therapist-book {
+	width:100%;
+	padding:5% 0 5% 0;
+	display: flex;
+	justify-content: center;
+}
+
+.home-type {
+	background-color: #F2FDF7;
+	padding:8% 3% 5% 3%;
+}
+.type-name {
+	padding:0 0 6% 0;
+}
+.type-block-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding:3% 0 3% 0%;
+}
+
+.type-block {
+	width:50%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 8%;
+}
+.type-block-img {
+	width:18%;
+	height:80%;
+	overflow: hidden;
+	margin:2% 0 0 0;
+}
+.type-left {
+	position: relative;
+	color:#5FD0A1;
+	transform: scale(0.5);
+	position: relative;
+	left:-50%;
+}
+.type-right {
+	position: relative;
+	color:#5FD0A1;
+	transform: scale(0.5);
+	position: relative;
+	left:-5%;
+}
+
+.type-block-msg {
+	width:82%;
+	color:#5FD0A1;
+	font-size: 1em;
+	line-height: 1em;
+	padding-left:0;
+	transform: scale(0.8);
+}
+.type-block-msg span {
+	font-size: 0.875em;
+	color:#C1C1C1;
+	letter-spacing: -0.01em;
+	line-height: 0.6em;
+	
+}
+.type-book {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 4%;
+}
+.home-pricing {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.pricing-name {
+	width:100%;
+	text-align: center;
+	padding: 10% 0 8% 0;
+}
+.pricing-time {
+	width:60%;
+	text-align:center;
+	color:#C1C1C1;
+	font-size:0.8em;
+	padding:2% 0 0.5% 0;
+	margin:0 10% 0 10%;
+	border-bottom: 0.5px solid #5FD0A1;
+	letter-spacing: -0.01em;
+}
+.pricing-time:before {
+	font-size: 0.9em;
+	font-weight: bold;
+	color:#5FD0A1;
+}
+.pricing-time-60:before {
+	content: "60";
+}
+.pricing-time-90:before {
+	content: "90";
+}
+.pricing-time-120:before {
+	content: "120";
+}
+.pricing-book {
+	display: flex;
+	justify-content: center;
+	padding:5% 0 5% 0;
+}
+.home-faq {
+	background:#D8FBE7;
+	padding-bottom: 8%;
+}
+.faq-name {
+	width:100%;
+	padding:6% 21% 6% 21%;
+}
+
+.faq-text-title {
+	font-size:0.8em;
+	padding:1.5% 10% 0 0%;
+	transform: scale(0.75);
+	letter-spacing: -0.05em;
+	margin-left:-1%;
+}
+.faq-text-title a {
+	color:#5FD0A1;
+}
+.faq-text-msg {
+	width:117%;
+	padding:0%;
+	font-size:0.75em;
+	transform: scale(0.65);
+	line-height: 1em;
+	letter-spacing: -0.075em;
+	margin-left:-9%;
+}
+.faq-text-msg ul li {
+	margin-left:-3.7%;
+}
+
+.contact-name {
+	padding:6% 0 3% 0;
+}
+.contact-text {
+	text-align: center;
+	font-size: 0.8em;
+	letter-spacing: -0.02em;
+
+}
+.contact-text-phone {
+	font-size:0.8em;
+	font-weight: bold;
+	transform: scale(0.8);
+	padding:3% 0 2% 38%;
+}
+.contact-text-phone:after {
+	content:"11111 111 1111";
+	font-weight: lighter;
+	font-size: 0.8em;
+	letter-spacing: -0.2em;
+}
+
+.contact-input {
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+.contact-input input {
+	width: 65%;
+	font-size:0.8em;
+	color:#C1C1C1;
+	margin:0.8% 0 0% 0;
+	transform: scale(0.9);
+	letter-spacing: -0.02em;
+	border:1px solid #C1C1C1;
+}
+.contact-you {
+	padding:1% 0 1% 2%;
+}
+.contact-massage {
+	padding:1% 0 25% 2%;
+}
+.contact-send {
+	padding: 5% 0 6% 0;
+}
+.home-bottom {
+	display: flex;
+	justify-content: center;
+	background: #28AB8B;
+}
+.bottom-massage {
+	text-align: center;
+	color:white;
+	font-size: 1.2em;
+	padding:11.5% 0 2% 0;
+}
+.bottom-massage span {
+	font-weight: bold;
+}
+.bottom-text {
+	color:white;
+	text-align: center;
+	font-size:0.75em; 
+	padding-bottom: 5.5%;
+}
