@@ -39,25 +39,65 @@ img {
 	margin-top: 50px;
 	width: 260px;
 	height: 438px;
-	margin-left: 41%;
 	display: flex;
 	flex-direction: column;
 	color: #999;
 }
+.ui-main-signup{
+	margin-top: 50px;
+	width: 20%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	color: #999;
+}
+.ui-forgot{
+	margin-top: 50px;
+	width: 40%;
+	height: 438px;
+	display: flex;
+	flex-direction: column;
+	color: #999;
+}
+.ui-main-forgot-sign{
+	width: 50%;
+}
 .ui-main-title{
 	margin-top: 10px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 2.5vmax;
+}
+.ui-main-forgot-email{
+	margin-top: 35px;
+	margin-bottom: 5px;
+	width: 50%;
+}
+.ui-main-forgot-email p{
+	float: left;
 }
 .ui-main-email{
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.ui-main-email p{
+	float: left;
+}
+.ui-main-password p{
+	float: left;
 }
 .ui-input{
+	margin-top: -10px;
 	width: 100%;
 	height: 35px;
 	border: solid 1px #ddd;
 	font-size: 20px;
+}
+.ui-forgot-input{
+	margin-top: -10px;
+	width: 50%;
+	height: 50px;
+	border: solid 1px #ddd;
+	font-size: 30px;
 }
 .ui-bottom{
 	height: 160px;
@@ -117,6 +157,9 @@ img {
 	text-align: center;
 	font-size: 18px;
 	margin-bottom: 30px;
+}
+.ui-main-empty{
+	height: 40px;
 }
 .ui-main-forgot a{
 	font-size: 15px;
