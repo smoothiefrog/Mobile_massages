@@ -1,0 +1,69 @@
+.booking_body {
+	width: 40%;
+}
+@media(max-width: 1024px) and (min-width: 414px) {
+	.booking_body {
+		width: 70%;
+	}
+}
+@media(max-width: 414px) {
+	.booking_body {
+		width: 90%;
+	}
+}
+.booking_body_page {
+	margin-top: 40px;
+	width: 75%;
+	height: 64px;
+	border-top: 2px solid #e2fcef;
+	border-bottom: 2px solid #e2fcef;
+}
+ul {
+	width: 73%;
+	padding:0;
+}
+.bookpace_num_b,.bookpace_num {
+	list-style-type: none; 
+	width: 25%;
+	float: left;
+	display: inline;
+	font-family:comic sans MS;
+	/*font-family: "文泉驿等宽正黑";*/
+	color: #ccc;
+	font-size: 2vmax;
+	line-height: 55px;
+}
+.bookpace_num_b {
+    color: #666666;
+	font-size: 3vmax;
+	line-height: 48px;
+}
+
+.booking_guide_title {
+	width: 90%;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	font-family: "方正兰亭超细黑简体";
+	font-size: 2vmax;
+	font-weight: 900;
+	color: #999;
+}
+.booking_text_container {
+	width: 50%;
+	display: block;
+	/*height: 40px;*/
+}
+.booktext_guide,.book_radio_text {
+	margin-bottom: 3px;
+	font-size: 1vmax;
+    float: left;
+    font-weight: 500;
+    color: #999; 
+    font-family: "微软雅黑"
+} 
+.book_text {
+	margin-bottom: 13px;
+	width: 100%;
+	height: 34px;
+	border: 1px solid #e9e9e9;
+}

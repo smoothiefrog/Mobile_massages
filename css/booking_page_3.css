@@ -1,0 +1,59 @@
+.booking_dapartline_container {
+	height: 25px;
+/*	background-color: yellow;*/
+	display: flex;
+	flex-direction: row;
+}
+.booking_dapartline {
+	padding: 0;
+	width: 45%;
+	border-top: 1px solid #e9e9e9;
+}
+.booking_depart_or {
+	font-size: 1vmax;
+	color: #999;
+    font-family: "微软雅黑";
+	line-height: 0px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.selected {
+	background-color: #d9fbea;
+}
+
+.booking_select_container {
+	padding: 5px;
+	width: 50%;
+	height: 30px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.booking_select {
+	float: left;
+	margin-left: 8%;
+	font-size: 1vmax;
+	color: #999;
+	font-family: "微软雅黑";
+}
+
+.book_to_facebook {
+	width: 50%;
+	height: 30px;
+	border-radius: 8px;
+	background-color: #3d5a94;
+	color: #fff;
+	font-weight: 100;
+	margin: 5px 0 40px 0;
+	font-size: 0.8vmax;
+	border: 1px solid transparent;
+}
+.icon_facebook {
+	padding-right: 2%;
+}
+.book_forgot_password {
+	margin-top: 20px;
+	font-size: 1vmax;
+    font-weight: 500;
+    color: #999; 
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes">
+		<title>Booking_3-1</title>
+		<link rel="stylesheet" type="text/css" href="css/booking_page_1.css">
+    <link rel="stylesheet" type="text/css" href="css/booking_page_3.css">
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.css">
+	</head>
+	<body>
+        <center>
+           <div class="booking_body">
+               <div class="booking_body_page">
+               	<!-- 1 2 3 4 -->
+                 <ul>
+                 	<li class="bookpace_num">1</li>
+                 	<li class="bookpace_num">2</li>
+                 	<li class="bookpace_num_b">3</li>
+                 	<li class="bookpace_num">4</li>
+                 </ul>
+               </div>
+               <div class="booking_guide_title">
+               	  Create your account or sign in to your existing account to continue
+               </div>
+               <div id="new_customer" class="radio booking_select_container selected">
+                 <label class="booking_select">
+                   <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> I'm a new customer
+                 </label>
+               </div> 
+               <div id="old_customer" class="radio booking_select_container">
+                 <label class="booking_select">
+                   <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">I have an account
+                 </label>
+               </div>
+               <button type="button" class="book_to_facebook">
+                 <i class="fa fa-facebook fa-lg icon_facebook"></i>
+                 Sign Up with Facebook
+               </button>
+      
+               <div class="booking_text_container">
+                  <div class="booking_dapartline_container">
+                    <span class="booking_dapartline"></span>
+                    <div class="booking_depart_or">or</div>
+                    <span class="booking_dapartline"></span>
+                  </div>
+               	  <div class="booktext_guide">First Name</div>
+                  <input type="text" class="book_text">
+               	  <div class="booktext_guide">Last Name</div>
+                  <input type="text" class="book_text">
+                  <div class="booktext_guide">Email address</div>
+                  <input type="text" class="book_text">
+                  <div class="booktext_guide">Mobile number</div>
+                  <input type="text" class="book_text">
+                  <div class="booktext_guide">Choose a password</div>
+                  <input type="password" class="book_text">
+               </div>
+           </div>
+        </center>
+        
+		<!-- script depart line -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/booking_page_3.js"></script>	
+	</body>
+</html>
