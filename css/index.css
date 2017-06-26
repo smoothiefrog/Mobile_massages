@@ -5,6 +5,9 @@
 	padding: 0 6% 0 3%;
 	background-color: #fff;
 }
+.nav li a{
+	padding: 10px 10px;
+}
 .head-title{
 	display: flex;
 }
@@ -31,7 +34,7 @@
 	margin-left: 41%;
 	display: flex;
 	flex-direction: column;
-	color: #aaa;
+	color: #999;
 }
 .ui-main-title{
 	margin-top: 10px;
@@ -106,11 +109,11 @@
 	margin-bottom: 30px;
 }
 .ui-main-forgot a{
-	color: #aaa;
+	color: #999;
 }
 .ui-main-forgot a:hover{
 	text-decoration: none;
-	color: #aaa;
+	color: #999;
 }
 .ui-main-face a{
 	color: #fff;
@@ -122,7 +125,6 @@
 .btn{
 	height: 50px;
 	font-size: 30px;
-	
 	color: #fff;
 	border: none;
 	background: #64d2a3;
