@@ -8,6 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="css/booking_page_1.css">
 		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="lib/flatpickr/dist/flatpickr.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/flatpickr/dist/flatpickr.min.css"> -->
 	</head>
 	<body>
         <center>
@@ -26,18 +28,25 @@
                </div>
                <div class="booking_text_container">
                	  <div class="booktext_guide">Choose a date</div>
-                  <input type="text" id="calendar" class="book_text" placeholder="  Today">
+                  <input type="text" id="flatpickr-calendar" class="book_text" placeholder="  Today" data-date-format="l,F,j,Y">
                	  <div class="booktext_guide">Time</div>
-                  <input type="text" id="calendar" class="book_text" placeholder="  5:00 PM">
+                  <input type="text" id="flatpickr-calendar-time" class="book_text" placeholder="  5:00 PM" data-enable-time="true" data-no-calendar="true" >
                </div>
+               <!-- 继续 -->
+               <div class="booking_continue">
+                <button class="booking_btn_continue">CONTINUE</button>
+              </div>
            </div>
         </center>
 
 		<!-- script depart line -->
+    
+
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
+   <!--  <script src="https://unpkg.com/flatpickr"></script> -->
+   <script src="lib/flatpickr/dist/flatpickr.js"></script>
     <script type="text/javascript" src="js/booking_page_1.js"></script>
-		<script type="text/javascript" src="js/laydate.dev.js"></script>
 		
 	</body>
 </html>

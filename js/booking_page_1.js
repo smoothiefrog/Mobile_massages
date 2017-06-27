@@ -1,10 +1,6 @@
+// const flatpickrs = require("flatpickr");
 $(init) 
 function init() {  
-	$('#calender').click(function(){
-		laydate({
-
-            elem: '#J-xl'
-
-        });
-	})
+	$("#flatpickr-calendar").flatpickr(); 
+	$("#flatpickr-calendar-time").flatpickr(); 
 }

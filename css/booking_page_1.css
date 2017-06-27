@@ -1,3 +1,37 @@
+/*title*/
+#header {
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #d8fae9;
+	padding: 0 6.9% 0 2.3%;
+	background-color: #fff;
+}
+.nav > li > a{
+	font-size: 13px;
+}
+.fa-facebook{
+	margin-left: -5px;
+	margin-right: 10px;
+}
+.head-title{
+	display: flex;
+}
+.head-title-left{
+	color: #64d2a3;
+	margin-right: 5px;
+	font-weight: 100;
+}
+.head-title-right{
+	color: #28ab8b;
+	font-weight: 500;
+}
+.fn-just-takeup{
+	width: 50px;
+}
+.fn-color-green{
+	color: #64d2a3;
+}
+/*body*/
 .booking_body {
 	width: 40%;
 }
@@ -18,7 +52,7 @@
 	border-top: 2px solid #e2fcef;
 	border-bottom: 2px solid #e2fcef;
 }
-ul {
+.booking_body_page ul {
 	width: 73%;
 	padding:0;
 }
@@ -66,4 +100,41 @@ ul {
 	width: 100%;
 	height: 34px;
 	border: 1px solid #e9e9e9;
+}
+/*继续按钮*/
+.booking_continue{
+	margin-top: 10px;
+}
+.booking_btn_continue{
+	width: 40%;
+	height: 45px;
+	background: #64d2a3;
+	font-size: 1.1vmax;
+	font-weight: bold;
+	color: white;
+	margin-top: 20px;
+	outline-style: none;
+	border:1px solid #64d2a3;
+}
+.booking_btn_continue:hover{
+	background: rgb(100, 210, 141);
+}
+.booking_continue p{
+	width: 45%;
+	font-size: 0.6vmax;
+	margin-top: 10px;
+	color: rgb(168, 168, 168);
+}
+.booking_continue h4{
+	margin-top: 20px;
+	font-weight: 100;
+	color: rgb(168, 168, 168);
+}
+.booking_continue h4 a{
+	margin-left: 1%;
+	font-size: 1.1vmax;
+	font-weight: bold;
+	margin-top: -2px;
+	color: rgb(137, 136, 136);
+	text-decoration: none;
 }
