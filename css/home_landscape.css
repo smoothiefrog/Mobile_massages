@@ -5,77 +5,112 @@
  * @date    2017-06-23 22:51:08
  * @version $Id$
  */
-#header {
-	padding: 0 5% -1% 2.3%;
-	background-color: #fff;
-	margin-top:-0.5%;
-	margin-bottom: -1%;
+body {
+ 	opacity: 1;
+ 	z-index: -1;
+ }
+ .head-background {
+	width:100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top:0;
+	z-index: 1;
+	background-color:rgba(0,0,0,0.35);
 }
-.head-login {
+
+#header {
+	width:100%;
+	height:8%;
+	background-color: #fff;
+	margin-top:-2.4%;
+}
+
+.navbar-toggle {
+	position: absolute;
+	left:90%;
+	padding: 1% 0 0% 0;
+	width:8%;
+	background-color: #fff;
+	border:0;
+}
+.nav-sign {
+	display: none;
 	width:0;
-	position:absolute;
-	visibility:hidden;
+	height: 0;
+}
+.navbar {
+	width:100%;
+	height: 100%;
+	z-index: 11;
 }
 .nav {
-	display: flex;
-	justify-content: flex-end;
+	margin-top:-1.7%;
 }
-.nav-home {
-	margin:0% 0% 0 -3%;
+.nav li {
+	margin-top: -1.5%;
+	
 }
-.nav > li {
-	font-size: 0.85em;
-	text-align: center;
-	padding:0% 0 0% 0;
-	margin-left:-3.8%;
-	margin-right:-1%;
-	transform: scale(0.85);
-}
-.nav-home {
-	display: flex;
-	flex-wrap: wrap;
-}
-.head-title{
-	display: flex;
+.nav li a {
+	font-size: 0.95em;
+	width:100%;
+	padding:2% 0 2% 5%;
+	background-color: white;
+	border-top: 1px solid #C1C1C1;
 }
 
-.head-title-left{
+
+.head-title {
+	padding-top:2%;
+	display: flex;
+	justify-content: center;
+}
+.head-title-left {
 	color: #64d2a3;
-	margin-right: 4%;
+	margin-right: 2%;
 	font-weight: 100;
-	font-size: 0.8em;
-	transform: scale(0.9);
+	font-size: 0.85em;
 }
 .head-title-right{
-	color: #64d2a3;
+	color:  #64d2a3;
 	font-weight: 600;
-	font-size: 0.8em;
-	transform: scale(0.9);
+	font-size: 0.85em;
+}
+.navbar-header {
+	display: flex;
+	justify-content: center;
+	margin-bottom: -2.8%;
+	padding-top:3%;
+}
+.navbar-header h6 {
+	font-size:1.3em;
+	color:#C1C1C1;
+	position: relative;
+	left:-40%;
+	top:-50%;
 }
 
-.fn-color-green{
-	color: #64d2a3;
-	float: right;
-	padding-top: 1%;
+.head-login-li {
+	border:0;
+	padding-bottom: 30%;
 }
+
+
+
+
 
  
-
 .home-top {
 	width:100%;
-	padding:2.5% 0 0 0;
+	padding:5.7% 0 0 0;
 }
 .carousel-inner img {
-	width:auto;
-	z-index: 11;
+	width:100%;
+	border:0;
+
 }
 .carousel-control {
 	padding-top:16%;
-}
-
-.home-display {
-	display: flex;
-	justify-content: center;
 }
 .left {
 	
@@ -87,28 +122,27 @@
 	background: rgba(1,1,1,0);
 	
 }
-
-
 .home-line {
 	width:100%;
 }
-
-
 .home-booking {
 	text-align: center;
 	width:100%;
 }
 .home-name {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color:#5FD0A1;
 	text-align: center;
+	letter-spacing: -0.01em;
 }
 .home-mobile-name {
-	padding:1% 0 0% 0;
+	padding:3% 0 0% 0;
 }
 .home-mobile-book-a-spa {
 	padding:0% 0 4% 0;
-	font-size:1em;
+	font-size:0.95em;
+	transform: scale(0.85);
+	letter-spacing: -0.01em;
 }
 .home-mobile-time {
 	padding:1% 0 1% 0;
@@ -117,32 +151,31 @@
 	padding:0.6% 0 0.5% 0;
 }
 .home-booking select {
-	width:19%;
-	padding:0.5% 0% 0.5% 1%;
+	width:48%;
+	padding:1.5% 0% 1.5% 2%;
 	color:#C1C1C1;
-	font-size: 0.8em;
+	font-size: 0.9em;
+	transform: scale(0.85);
 }
 button {
 	color:white;
 	background: #64D2A3;
-	width:25%;
+	width:48%;
 	text-align: center;
-	padding:1.5% 0 1.5% 0;
+	padding:2.5% 0 2.5% 0;
 	border:0;
-	font-size: 1em;
-	transform:scale(0.7);
+	font-size: 1.1em;
+	transform:scale(0.80);
 }
 
 .home-mobile-book {
 	padding:3% 0 6% 0;
 }
-
-
 .home-border {
 	width:100%;
 	background: #D8FBE7;
+	display: flex;
 	flex-wrap: wrap;
-
 }
 
 .border {
@@ -151,61 +184,64 @@ button {
 	padding:0;
 	display: flex;
 	flex-wrap: wrap;
+	overflow: hidden;
 	justify-content: center;
 }
 
 .border-img {
-	width:30%;
-	height:70%;
+	width:21%;
+	height:60%;
 	background: #D8FBE7;
 	overflow: hidden;
 	margin: 5% 0 0 0;
 }
 .border-img-cal {
-	width:30%;
-	height:65%;
+	width:20%;
+	height:28%;
 	background: #D8FBE7;
 	overflow: hidden;
-	margin: 5.5% 0 0 0;
-	transform: scale(0.9);
+	margin: 16% 0 0 0;
 }
 .fa-home {
 	position: relative;
-	top:-18.5%;
-	left:-21%;
+	top:-8.5%;
+	left:-50%;
 	color:#5FD0A1;
 	border:0;
-	transform: scale(0.8);
+	transform: scale(0.35);
 }
 .fa-codiepie {
 	position: relative;
-	top:-18.5%;
-	left:-21%;
+	top:-10%;
+	left:-60%;
 	color:#5FD0A1;
 	border:0;
-	transform: scale(0.8);
+	transform: scale(0.31);
 }
 .fa-calculator {
 	position: relative;
-	top:-9.5%;
-	left:-11%;
+	top:-70%;
+	left:-50%;
 	color:#5FD0A1;
-	border:0;
-	transform: scale(0.9);
+	transform: scale(0.40);
 	margin:0;
 }
+
 .border-msg {
-	width:65%;
+	width:79%;
+	height: 40%;
 	background: #D8FBE7;
-	padding:6% 0 0 1.5%;
-	font-size: 0.85em;
-	padding: 13% 0 0 0;
+	padding:30% 0 0 5%;
+	margin:0;
+	font-size: 0.8em;
+	-webkit-transform-origin: 0% 0%;
+    -webkit-transform:scale(0.74);
 }
 
 
 .professional-therapist {
 	text-align: center;
-	padding:6% 0 4% 0;
+	padding:10% 0 4% 0;
 }
 .therapist-img-list {
 	display: flex;
@@ -215,25 +251,30 @@ button {
 .therapist-img {
 	width:15%;
 	padding:1% 0% 1% 0%;
-	margin:0 4.5% 0 -1%;
+	margin:0 5% 0 1%;
 	align-items: center;
+}
+.therapist-img img {
+	width:130%;
 }
 .therapist-book {
 	width:100%;
-	padding:5% 0 7% 0;
+	padding:5% 0 5% 0;
+	display: flex;
+	justify-content: center;
 }
 
 .home-type {
 	background-color: #F2FDF7;
-	padding:5% 3% 3% 3%;
+	padding:8% 3% 5% 3%;
 }
 .type-name {
-	padding:0 0 5% 0;
+	padding:0 0 6% 0;
 }
 .type-block-list {
 	display: flex;
 	flex-wrap: wrap;
-	padding:3% 0 3% 8%;
+	padding:3% 0 3% 0%;
 }
 
 .type-block {
@@ -251,32 +292,36 @@ button {
 .type-left {
 	position: relative;
 	color:#5FD0A1;
-	transform: scale(0.8);
+	transform: scale(0.5);
 	position: relative;
-	left:-10%;
+	left:8%;
 }
 .type-right {
 	position: relative;
 	color:#5FD0A1;
-	transform: scale(0.8);
+	transform: scale(0.5);
 	position: relative;
-	left:0%;
+	left:15%;
 }
 
 .type-block-msg {
-	width:75%;
+	width:82%;
 	color:#5FD0A1;
-	font-size: 1.6em;
-	font-weight: bold;
-	line-height: 0.7em;
-	padding-left:2%;
+	font-size: 1em;
+	line-height: 1em;
+	padding-left:0;
+	transform: scale(0.85);
 }
 .type-block-msg span {
-	font-size: 0.55em;
-	font-weight: lighter;
+	font-size: 0.875em;
 	color:#C1C1C1;
+	letter-spacing: -0.01em;
+	line-height: 0.6em;
+	
 }
 .type-book {
+	display: flex;
+	justify-content: center;
 	padding-bottom: 4%;
 }
 .home-pricing {
@@ -287,19 +332,20 @@ button {
 .pricing-name {
 	width:100%;
 	text-align: center;
-	padding: 5.5% 0 6% 0;
+	padding: 10% 0 8% 0;
 }
 .pricing-time {
-	width:40%;
+	width:50%;
 	text-align:center;
 	color:#C1C1C1;
-	font-size:1.2em;
-	padding:1% 0 0.5% 0;
+	font-size:1.1em;
+	padding:2% 0 0.5% 0;
 	margin:0 10% 0 10%;
-	border-bottom: 1px solid #5FD0A1;
+	border-bottom: 0.5px solid #5FD0A1;
+	letter-spacing: -0.01em;
 }
 .pricing-time:before {
-	font-size: 1.2em;
+	font-size: 0.9em;
 	font-weight: bold;
 	color:#5FD0A1;
 }
@@ -313,92 +359,111 @@ button {
 	content: "120";
 }
 .pricing-book {
-	padding:5% 0 5% 0;
+	display: flex;
+	justify-content: center;
+	padding:6% 0 7% 0;
 }
-
 .home-faq {
 	background:#D8FBE7;
 	padding-bottom: 8%;
 }
 .faq-name {
-	width:50%;
-	padding:5.5% 10% 5% 10%;
-	margin:0 25% 0 25%;
+	width:100%;
+	padding:6% 28% 6% 28%;
 }
 
 .faq-text-title {
-	font-size:1em;
-	font-weight: bold;
-	padding:1.5% 20% 0 19%;
+	font-size:0.9em;
+	padding:1.5% 38% 0 4%;
+	transform: scale(0.85);
+	letter-spacing: -0.05em;
+	margin-left:-1%;
 }
 .faq-text-title a {
 	color:#5FD0A1;
 }
 .faq-text-msg {
-	padding:1.2% 15% 0 17.5%;
+	width:100
+	padding:0%;
 	font-size:0.75em;
-	transform: scale(0.95);
+	transform: scale(0.75);
 	line-height: 1em;
-	letter-spacing: -0.05em;
+	letter-spacing: -0.075em;
+	margin-left:-3%;
 }
 .faq-text-msg ul li {
 	margin-left:-3.7%;
 }
+
 .contact-name {
 	padding:6% 0 3% 0;
 }
 .contact-text {
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 0.9em;
+	letter-spacing: -0.02em;
 
 }
 .contact-text-phone {
-	font-size:1em;
+	font-size:0.9em;
 	font-weight: bold;
-	padding:3% 0 2% 45.1%;
+	transform: scale(0.8);
+	padding:3% 0 2% 38%;
 }
 .contact-text-phone:after {
 	content:"11111 111 1111";
 	font-weight: lighter;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	letter-spacing: -0.2em;
 }
 
 .contact-input {
+	width:100%;
 	display: flex;
 	justify-content: center;
 }
 .contact-input input {
-	width: 29%;
+	width: 58%;
 	font-size:0.8em;
 	color:#C1C1C1;
-	margin:1% 0 0 0;
+	margin:0.8% 0 0% 0;
+	transform: scale(0.9);
+	letter-spacing: -0.02em;
 	border:1px solid #C1C1C1;
 }
 .contact-you {
-	padding:0.5% 0 0.5% 1%;
+	padding:1% 0 1% 2%;
 }
 .contact-massage {
-	padding:0.5% 0 21% 1%;
+	padding:1% 0 25% 2%;
 }
 .contact-send {
-	padding: 4% 0 6% 0;
+	display: flex;
+	justify-content: center;
+	padding: 5% 0 6% 0;
 }
 .home-bottom {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	background: #28AB8B;
 }
 .bottom-massage {
+	width:100%;
 	text-align: center;
 	color:white;
-	font-size: 1.2em;
+	font-size: 0.9em;
 	padding:11.5% 0 2% 0;
 }
 .bottom-massage span {
 	font-weight: bold;
 }
 .bottom-text {
+	width:100%;
 	color:white;
 	text-align: center;
 	font-size:0.75em; 
 	padding-bottom: 5.5%;
+	transform: scale(0.7);
 }

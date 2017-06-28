@@ -5,11 +5,102 @@
  * @date    2017-06-23 22:51:08
  * @version $Id$
  */
+body {
+ 	opacity: 1;
+ 	z-index: -1;
+ }
+ .head-background {
+	width:100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top:0;
+	z-index: 1;
+	background-color:rgba(0,0,0,0.35);
+}
+
+#header {
+	width:100%;
+	height:8%;
+	background-color: #fff;
+	margin-top:-2.4%;
+}
+
+.navbar-toggle {
+	position: absolute;
+	left:90%;
+	margin-top: 2%;
+	padding: 3% 0 0% 0;
+	width:8%;
+	background-color: #fff;
+	border:0;
+}
+.nav-sign {
+	display: none;
+	width:0;
+	height: 0;
+}
+.navbar {
+	width:100%;
+	height: 100%;
+	z-index: 11;
+}
+.nav {
+	margin-top:-1.7%;
+}
+.nav li {
+	margin-top: -1.5%;
+	
+}
+.nav li a {
+	font-size: 0.95em;
+	width:100%;
+	padding:2% 0 2% 5%;
+	background-color: white;
+	border-top: 1px solid #C1C1C1;
+}
+
+
+.head-title {
+	padding-top:5%;
+	display: flex;
+	justify-content: center;
+}
+.head-title-left {
+	color: #64d2a3;
+	margin-right: 2%;
+	font-weight: 100;
+	font-size: 0.85em;
+}
+.head-title-right{
+	color:  #64d2a3;
+	font-weight: 600;
+	font-size: 0.85em;
+}
+.navbar-header {
+	display: flex;
+	justify-content: center;
+	margin-bottom: -1.8%;
+	padding-top:2%;
+}
+.navbar-header h6 {
+	font-size:1.3em;
+	color:#C1C1C1;
+	position: relative;
+	left:-6%;
+	top:-55%;
+}
+
+.head-login-li {
+	border:0;
+	padding-bottom: 38%;
+}
+
 
  
 .home-top {
 	width:100%;
-	padding:1% 0 0 0;
+	padding:10.5% 0 0 0;
 }
 .carousel-inner img {
 	width:100%;
@@ -112,7 +203,7 @@ button {
 .fa-home {
 	position: relative;
 	top:-18.5%;
-	left:-138%;
+	left:-140%;
 	color:#5FD0A1;
 	border:0;
 	transform: scale(0.4);
@@ -120,15 +211,15 @@ button {
 .fa-codiepie {
 	position: relative;
 	top:-14%;
-	left:-150%;
+	left:-153%;
 	color:#5FD0A1;
 	border:0;
 	transform: scale(0.35);
 }
 .fa-calculator {
 	position: relative;
-	top:-77.9%;
-	left:-140%;
+	top:-74%;
+	left:-135%;
 	color:#5FD0A1;
 	transform: scale(0.45);
 	margin:0;
@@ -201,14 +292,14 @@ button {
 	color:#5FD0A1;
 	transform: scale(0.5);
 	position: relative;
-	left:-50%;
+	left:-48.8%;
 }
 .type-right {
 	position: relative;
 	color:#5FD0A1;
 	transform: scale(0.5);
 	position: relative;
-	left:-5%;
+	left:-5.8%;
 }
 
 .type-block-msg {
@@ -345,25 +436,32 @@ button {
 	padding:1% 0 25% 2%;
 }
 .contact-send {
+	display: flex;
+	justify-content: center;
 	padding: 5% 0 6% 0;
 }
 .home-bottom {
+	width: 100%;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	background: #28AB8B;
 }
 .bottom-massage {
+	width:100%;
 	text-align: center;
 	color:white;
-	font-size: 1.2em;
+	font-size: 0.9em;
 	padding:11.5% 0 2% 0;
 }
 .bottom-massage span {
 	font-weight: bold;
 }
 .bottom-text {
+	width:100%;
 	color:white;
 	text-align: center;
 	font-size:0.75em; 
 	padding-bottom: 5.5%;
+	transform: scale(0.7);
 }
