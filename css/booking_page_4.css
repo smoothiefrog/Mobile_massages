@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+.booking_body{
+	width: 40%;
+}
+/*步骤 1 2 3 4*/
+.booking_body_page {
+	margin-top: 40px;
+	width: 73%;
+	height: 64px;
+	border-top: 2px solid #e2fcef;
+	border-bottom: 2px solid #e2fcef;
+}
+.booking_body_page ul{
+	width: 73%;
+	padding: 0;
+}
+.bookpace_num_b,.bookpace_num {
+	list-style-type: none; 
+	width: 25%;
+	float: left;
+	display: inline;
+	font-family:comic sans MS;
+	color: #ccc;
+	font-size: 2vmax;
+	line-height: 55px;
+}
+.bookpace_num_b {
+    color: #666666;
+	font-size: 3vmax;
+	line-height: 48px;
+}
+/*步骤名称*/
+.booking_guide_title{
+	margin: 30px 0 25px 0;
+	font-size: 2.3vmax;
+	/*color: #999;*/
+	color: gray;
+	/*font-family: Courier New;*/
+	font-family:"方正兰亭超细黑简体";
+	font-weight: 900;
+}
+/*填写地址*/
+.booking_address_info{
+	width: 48%;
+	height: auto;
+}
+.booking_address{
+	margin: 10px 0 0 0;
+	color: #9c9c9c;
+	font-weight: 600;
+	text-align: left;
+	font-size: 0.1vmax;
+}
+.booking_street_info{
+	width: 100%;
+	height: 37px;
+	border: 1px solid #ececec;
+}
+::-webkit-input-placeholder{
+	color:#d0d0d0;
+	font-size: 0.1vmax;
+	padding-left: 10px;
+}
+::-moz-placeholder{
+	color:#d0d0d0;
+	font-size: 0.1vmax;
+	padding-left: 10px;
+}
+.short_infos{
+	display: flex;
+}
+.short_info_1,.short_info_2{
+	width: 50%;
+}
+.booking_address_1{
+	margin: 10px 0 0 10%;
+	color: #9c9c9c;
+	font-weight: 600;
+	text-align: left;
+	font-size: 0.1vmax;
+}
+.booking_state_info_1{
+	width: 90%;
+	height: 37px;
+	border: 1px solid #ececec;
+	float: left;
+}
+.booking_state_info_2{
+	width: 90%;
+	height: 37px;
+	border: 1px solid #ececec;
+	float: right;
+}
+.booking_street_info_3{
+	width: 100%;
+	height: 141px;
+	border: 1px solid #ececec;
+	margin-bottom: 30px;
+}
+.booking_apply_btn{
+	width: 90%;
+	height: 37px;
+	border: 1px solid #ececec;
+	float: right;
+	background: #64d2a3;
+	color: white;
+	padding-top: 10px;
+	font-size: 0.8vmax;
+	font-weight: 600;
+}
+.booking_order_sum{
+	width: 100%;
+	height: 163px;
+	border: 1px solid #ececec;
+	margin-bottom: 40px;
+}
+.booking_order_sum_p{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #e6fcf0;
+	margin: 0px;
+	text-align: left;
+	font-size: 0.5vmax;
+	font-weight: 600;
+	color: #989898;
+	padding: 8px 0 0 3%;
+}
+.booking_order_sum_p1{
+	margin: 0px;
+	border-top: 1px solid #dcfbeb;
+	font-size: 1.4vmax;
+	font-weight: 600;
+	text-align: right;
+	color: #64d1a3;
+	padding: 8px 8% 0 4%;
+}
+.booking_order_sum_p1 span{
+	float: left;
+}
+/*继续按钮*/
+.booking_continue{
+	margin-top: 10px;
+}
+.booking_btn_continue{
+	width: 40%;
+	height: 45px;
+	background: #64d2a3;
+	font-size: 1.1vmax;
+	font-weight: bold;
+	color: white;
+	margin: 10px 0 25px 0;
+	outline-style: none;
+	border:1px solid #64d2a3;
+}
+.booking_btn_continue:hover{
+	background: rgb(100, 210, 141);
+}
+.booking_continue h4{
+	margin-top: 20px;
+	font-weight: 100;
+	font-size: 1.1vmax;
+	color: rgb(168, 168, 168);
+}
+.booking_continue h4 a{
+	margin-left: 1%;
+	font-size: 0.01vmax;
+	font-weight: bold;
+	margin-top: -2px;
+	color: rgb(137, 136, 136);
+	text-decoration: none;
+}
+/*ipad端自适应*/
+@media screen and (max-width: 1024px){
+.booking_body{
+	width: 60%;
+}
+/*步骤 1 2 3 4*/
+.booking_body_page {
+	width: 100%;
+	height: 90px;
+}
+.bookpace_num_b,.bookpace_num {
+	font-size: 4vmax;
+	line-height: 85px;
+}
+.bookpace_num_b {
+	font-size: 5.5vmax;
+	line-height: 80px;
+}
+/*步骤名称*/
+.booking_guide_title{
+	font-size:4vmax;
+	font-weight: 600;
+}
+/*填写地址*/
+.booking_address_info{
+	width: 60%;
+}
+.booking_address{
+	margin: 10px 0 5px 0;
+	font-size: 1.5vmax;
+}
+.booking_street_info{
+	height: 45px;
+}
+.booking_address_1{
+	margin: 10px 0 5px 10%;
+	font-size: 1.5vmax;
+}
+.booking_order_sum_p1{
+	font-size:2.5vmax;
+	font-weight: 600;
+	padding: 8px 8% 0 4%;
+}
+/*继续按钮*/
+.booking_btn_continue{
+	width: 50%;
+	height: 55px;
+	font-size: 1.5vmax;
+}
+.booking_continue h4{
+	margin-bottom: 50px;
+}
+}
+/*手机端横屏自适应*/
+@media screen and (min-width: 414px) and (max-width: 736px){
+.booking_body{
+	width: 80%;
+}
+.booking_order_sum_p1{
+	font-size:3.5vmax;
+	font-weight: 600;
+	padding: 8px 8% 0 4%;
+}
+}
+/*手机端竖屏自适应*/
+@media screen and (max-width: 414px){
+.booking_body{
+	width: 100%;
+}
+/*步骤 1 2 3 4*/
+.booking_body_page {
+	width: 100%;
+	height: 65px;
+}
+.bookpace_num_b,.bookpace_num {
+	font-size: 4vmax;
+	line-height: 60px;
+}
+.bookpace_num_b {
+	font-size: 5.5vmax;
+	line-height: 55px;
+}
+}
