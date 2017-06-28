@@ -1,36 +1,7 @@
 /*title*/
-#header {
-	border-width: 0 0 1px 0;
-	border-style: solid;
-	border-color: #d8fae9;
-	padding: 0 6.9% 0 2.3%;
-	background-color: #fff;
-}
-.nav > li > a{
-	font-size: 13px;
-}
-.fa-facebook{
-	margin-left: -5px;
-	margin-right: 10px;
-}
-.head-title{
-	display: flex;
-}
-.head-title-left{
-	color: #64d2a3;
-	margin-right: 5px;
-	font-weight: 100;
-}
-.head-title-right{
-	color: #28ab8b;
-	font-weight: 500;
-}
-.fn-just-takeup{
-	width: 50px;
-}
-.fn-color-green{
-	color: #64d2a3;
-}
+
+
+
 /*body*/
 .booking_body {
 	width: 40%;
