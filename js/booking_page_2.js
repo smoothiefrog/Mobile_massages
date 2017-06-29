@@ -34,12 +34,14 @@ $(document).ready(function(){
 		  $(".therapist_img").css({"border":"none","margin":"0"});
           $(this).css({"border":"7px solid #64d2a3","margin":"0 -7px 0 -7px"});
         });
-// 	for(i=1;i<=8;i++){
-//   $(".therapist_"+i).click(function(){
-//     $(".therapist_intro").hide();
-//     $(".therapist_intro_"+i).show();
-//   });
-// }
+	$(".dropdown-menu li").click(function(){
+		  $(this).children("span").show();
+		  // $(".booking_options_select").html($(this).html());
+		  $(this).parent().parent().children("button").html($(this).html());
+		  $(this).children("span").hide();
+    
+        });
+
 	$(".therapist_1").click(function(){
 		  $(".therapist_intro").hide();
           $(".therapist_intro_1").show();

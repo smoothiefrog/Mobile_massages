@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-06-29 10:19:25
+ * @version $Id$
+ */
+ /*页面主体*/
+.booking_body{
+	width: 70%;
+	height: 1000px;
+	background: pink;
+}
