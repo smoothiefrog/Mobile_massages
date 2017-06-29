@@ -10,6 +10,7 @@
 	background-color: #fff;
 	margin-top:-0.5%;
 	margin-bottom: -1%;
+	border-bottom: 1px solid #e2fcef;
 }
 .head-login {
 	width:0;
@@ -22,6 +23,9 @@
 }
 .nav-home {
 	margin:0% 0% 0 -3%;
+}
+.nav-sign {
+	padding-right:3%;
 }
 .nav > li {
 	font-size: 0.85em;
