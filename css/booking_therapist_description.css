@@ -5,9 +5,185 @@
  * @date    2017-06-29 10:19:25
  * @version $Id$
  */
+ /*头部*/
+ .nav-therapist{
+ 	font-weight: 900;
+ }
  /*页面主体*/
 .booking_body{
 	width: 70%;
-	height: 1000px;
-	background: pink;
+	margin-top: 130px;
+}
+.therapist_des_title{
+	font-family:"方正兰亭超细黑简体";
+	font-size: 2.5vmax;
+	font-weight: 900;
+	color: #a2a2a2;
+}
+.therapist_des_sub_title{
+	width: 30%;
+	font-family:"方正兰亭超细黑简体";
+	font-size: 1.2vmax;
+	font-weight: 900;
+	color: #7dd8b1;
+	margin-bottom: 100px;
+}
+.therapist_des_page{
+	display: flex;
+	flex-wrap: wrap;
+}
+.therapist_des_person{
+	width: 50%;
+	height: 135px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 35px;
+}
+.person_left{
+	padding-right: 8%;
+}
+.person_right{
+	padding-right: 8%;
+	margin-right: -8%;
+	margin-left: 8%;
+}
+.therapist_des_person img{
+	width: 30%;
+}
+.therapist_des_person_intro{
+	width: 70%;
+	padding-left: 2%;
+}
+.therapist_des_person_intro h4{
+	text-align: left;
+	font-size: 1.3vmax;
+	font-weight: 600;
+	margin:0px 0 6px 0;
+	color: #66d2a5;
+}
+.therapist_des_person_intro p{
+	text-align: justify;
+	letter-spacing: -0.9px;
+    font-size: 0.1vmax;
+}
+.booking_btn_continue{
+	width: 25%;
+	height: 50px;
+	margin: 20px 0 50px 0;
+}
+/*ipad端自适应*/
+@media screen and (min-width: 736px) and (max-width: 1024px){
+/*页面主体*/
+.booking_body{
+	width: 90%;
+	margin-top: 130px;
+}
+.therapist_des_title{
+	font-size: 2vmax;
+}
+.therapist_des_sub_title{
+	font-size: 1vmax;
+	margin-bottom: 65px;
+}
+.therapist_des_person{
+	height: 110px;
+	/*background-color: yellow;*/
+	margin-bottom: 35px;
+}
+.person_left{
+	padding-right: 5%;
+}
+.person_right{
+	padding-right: 5%;
+	margin-right: -5%;
+	margin-left: 5%;
+}
+.therapist_des_person_intro h4{
+	margin:0px 0 4px 0;
+}
+.therapist_des_person_intro p{
+	letter-spacing: -0.9px;
+    line-height: 11px;
+}
+.booking_btn_continue{
+	margin: 20px 0 30px 0;
+}
+}
+/*手机端横屏自适应*/
+@media screen and (min-width: 600px) and (max-width: 736px){
+/*页面主体*/
+.booking_body{
+	width: 95%;
+	margin-top: 60px;
+}
+.therapist_des_title{
+	font-size: 3vmax;
+}
+.therapist_des_sub_title{
+	width: 50%;
+	font-size: 0.1vmax;
+	margin-bottom: 65px;
+}
+.therapist_des_person{
+	height: 85px;
+	margin-bottom: 35px;
+}
+.person_left{
+	padding-right: 5%;
+}
+.person_right{
+	padding-right: 5%;
+	margin-right: -5%;
+	margin-left: 5%;
+}
+.therapist_des_person_intro h4{
+	margin:0px 0 1px 0;
+}
+.therapist_des_person_intro p{
+	letter-spacing: -0.9px;
+    line-height: 10px;
+}
+.booking_btn_continue{
+	margin: 20px 0 30px 0;
+}
+}
+/*手机端竖屏自适应*/
+@media screen and (max-width: 600px){
+/*页面主体*/
+.booking_body{
+	width: 100%;
+	margin-top: 80px;
+}
+.therapist_des_title{
+	font-size: 3vmax;
+}
+.therapist_des_sub_title{
+	width: 53%;
+	font-size: 0.1vmax;
+	margin-bottom: 45px;
+}
+.therapist_des_person{
+	width: 100%;
+	height: 110px;
+	margin-bottom: 35px;
+}
+.person_left{
+	padding:0 5% 0 5%;
+}
+.person_right{
+	padding:0 2% 0 2%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.therapist_des_person_intro h4{
+	margin:0px 0 4px 0;
+}
+.therapist_des_person_intro p{
+	letter-spacing: -0.9px;
+    line-height: 13px;
+}
+.booking_btn_continue{
+	width: 75%;
+	margin: 20px 0 20px 0;
+}
 }
