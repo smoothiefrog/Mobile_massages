@@ -53,6 +53,7 @@
 	}
 	.head-login {
 		width:0;
+		height: 0;
 		position:absolute;
 		visibility:hidden;
 	}
@@ -63,15 +64,15 @@
 	.nav-home {
 		margin:0% 0% 0 -3%;
 	}
-	.nav-sign {
-		padding-right:3%;
+	.head-sign {
+		margin-right:28%;
+		width:105%;
 	}
 	.nav > li {
 		font-size: 0.85em;
 		text-align: center;
-		padding:0% 0 0% 0;
-		margin-left:-3.8%;
-		margin-right:-1%;
+		padding:0% 0% 0% 0;
+		margin-left:-3%;
 		transform: scale(0.85);
 	}
 	.nav-home {
@@ -103,7 +104,7 @@
 	}
 }
 /*landscape*/
-@media(max-width: 736px) and (min-width: 414px) {
+@media(max-width: 736px) and (min-width: 415px) {
 body {
  	opacity: 1;
  	z-index: -1;
@@ -297,7 +298,7 @@ body {
 .booking_body {
 	width: 40%;
 }
-@media(max-width: 1024px) and (min-width: 414px) {
+@media(max-width: 1024px) and (min-width: 415px) {
 	.booking_body {
 		width: 70%;
 	}

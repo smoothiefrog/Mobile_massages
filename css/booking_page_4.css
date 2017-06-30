@@ -224,7 +224,7 @@
 }
 }
 /*手机端横屏自适应*/
-@media screen and (min-width: 414px) and (max-width: 736px){
+@media screen and (min-width: 415px) and (max-width: 735px){
 .booking_body{
 	width: 80%;
 }

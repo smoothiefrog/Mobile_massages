@@ -246,7 +246,7 @@ margin-top: 20px;
 	text-decoration: none;
 }
 /*ipad端自适应*/
-@media screen and (min-width: 736px) and (max-width: 1024px){
+@media screen and (min-width: 736px) and (max-width: 1023px){
 /*头部*/
 #header {
 	padding: 0 5% -1% 2.3%;
@@ -260,6 +260,7 @@ margin-top: 20px;
 	position:absolute;
 	visibility:hidden;
 }
+
 .nav {
 	display: flex;
 	justify-content: flex-end;
@@ -267,15 +268,15 @@ margin-top: 20px;
 .nav-home {
 	margin:0% 0% 0 -3%;
 }
-.nav-sign {
-	padding-right:3%;
+.head-sign {
+	width:105%;
+	margin-right: 28%;
 }
 .nav > li {
 	font-size: 0.85em;
 	text-align: center;
 	padding:0% 0 0% 0;
-	margin-left:-3.8%;
-	margin-right:-1%;
+	margin-left:-3.2%;
 	transform: scale(0.85);
 }
 .nav-home {
@@ -322,7 +323,7 @@ margin-top: 20px;
 }
 }
 /*手机端横屏自适应*/
-@media screen and (min-width: 414px) and (max-width: 736px){
+@media screen and (min-width: 415px) and (max-width: 736px){
 /*头部*/
 body {
  	opacity: 1;
