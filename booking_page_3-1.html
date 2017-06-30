@@ -75,7 +75,7 @@
                  <i class="fa fa-facebook fa-lg icon_facebook"></i>
                  Sign Up with Facebook
                </button>
-      
+               <form action="">
                <div class="booking_text_container">
                   <div class="booking_dapartline_container">
                     <span class="booking_dapartline"></span>
@@ -87,20 +87,27 @@
                	  <div class="booktext_guide">Last Name</div>
                   <input type="text" class="book_text">
                   <div class="booktext_guide">Email address</div>
-                  <input type="text" class="book_text">
+                  <input type="email" class="book_text">
                   <div class="booktext_guide">Mobile number</div>
-                  <input type="text" class="book_text">
+                  <input type="tel" class="book_text">
                   <div class="booktext_guide">Choose a password</div>
                   <input type="password" class="book_text">
                </div>
+
                   <!-- 继续 -->
               <div class="booking_continue">
-                <button class="booking_btn_continue" onclick="javascript:top.location='booking_page_4-1.html';">CONTINUE</button>
+               
+                <input type="submit" class="booking_btn_continue" value="CONTINUE" onclick="javascript:top.location='booking_page_4-1.html';"></input>
+
                 <p>By clicking "Continue" above,you are agreeing to our terms of Service agreement.</p>
                 <h4><<a href="booking_page_2.html">Back</a></h4>
               </div>
+              </form>
+
            </div>
-          <!-- 尾部 -->
+          
+        </center>
+        <!-- 尾部 -->
           <div class="home-bottom">
             <div class="bottom-massage">
               Mobile <span>massages</span>
@@ -111,8 +118,6 @@
               PRIVACY POLICY
             </div>
           </div>
-        </center>
-        
 		<!-- script depart line -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
