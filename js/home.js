@@ -13,9 +13,10 @@
  	var flag=0;
   $(".nav > li > a").click(function(){ 
     for(i=0;i<8;i++) {
-      $(".nav > li > a").eq(i).css("background-color","white");
+      $(".nav > li > a").eq(i).css({"background-color":"white","font-weight":"lighter"});
     }
-    $(this).css("background-color","rgba(255,255,255,0.8)");
+    $(this).css({"background-color":"rgba(255,255,255,0.8)","font-weight":"bold"});
+   
   });
 
   $(".navbar-toggle").click(function() {

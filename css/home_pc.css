@@ -83,6 +83,7 @@
 
 
 .home-booking {
+	padding:4% 0 0 0;
 	text-align: center;
 	width:100%;
 }
@@ -92,7 +93,7 @@
 	text-align: center;
 }
 .home-mobile-name {
-	padding:1% 0 0% 0;
+	padding:1% 0 0.2% 0;
 }
 .home-mobile-book-a-spa {
 	padding:0% 0 4% 0;
@@ -110,7 +111,7 @@
 	color:#C1C1C1;
 	border:1px solid #C1C1C1;
 }
-button {
+input {
 	color:white;
 	font-weight: bold;
 	background: #64D2A3;
@@ -267,7 +268,7 @@ button {
 	font-size:1.4em;
 	padding:0 1% 0.5% 0;
 	margin:0 10% 0 10%;
-	border-bottom: 1px solid #5FD0A1;
+	border-bottom: 1px solid #e2fcef;
 }
 .pricing-time:before {
 	font-size: 1.4em;
@@ -298,6 +299,7 @@ button {
 }
 
 .faq-text-title {
+	text-align: left;
 	font-size:1.2em;
 	font-weight: bold;
 	padding:1.5% 34% 0 24%;
@@ -306,6 +308,7 @@ button {
 	color:#5FD0A1;
 }
 .faq-text-msg {
+	text-align: left;
 	padding:1.2% 24% 0 24%;
 	font-size:0.9em;
 }
@@ -318,12 +321,11 @@ button {
 .contact-text {
 	text-align: center;
 	font-size: 1.4em;
-
 }
 .contact-text-phone {
 	font-size:1.1em;
 	font-weight: bold;
-	padding:3% 0 2% 45.1%;
+	padding:3% 0 2% 0%;
 }
 .contact-text-phone:after {
 	content:"11111 111 1111";
@@ -337,6 +339,8 @@ button {
 	justify-content: center;
 }
 .contact-input input {
+	text-align: left;
+	background-color: white;
 	width: 26%;
 	font-size:0.9em;
 	color:#C1C1C1;
@@ -354,12 +358,13 @@ button {
 }
 .home-bottom {
 	background: #28AB8B;
+	width:100%;
 }
 .bottom-massage {
 	text-align: center;
 	color:white;
 	font-size: 1.2em;
-	padding:11.5% 0 2% 0;
+	padding:8% 0 1.5% 0;
 }
 .bottom-massage span {
 	font-weight: bold;
@@ -368,5 +373,5 @@ button {
 	color:white;
 	text-align: center;
 	font-size:0.75em; 
-	padding-bottom: 5.5%;
+	padding-bottom: 2.2%;
 }

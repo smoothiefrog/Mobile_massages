@@ -17,6 +17,7 @@
 	position:absolute;
 	visibility:hidden;
 }
+
 .nav {
 	display: flex;
 	justify-content: flex-end;
@@ -25,7 +26,7 @@
 	margin:0% 0% 0 -3%;
 }
 .nav-sign {
-	padding-right:3%;
+	padding-right:2%;
 }
 .nav > li {
 	font-size: 0.85em;
@@ -99,6 +100,7 @@
 
 
 .home-booking {
+	padding-top:5%;
 	text-align: center;
 	width:100%;
 }
@@ -126,7 +128,7 @@
 	color:#C1C1C1;
 	font-size: 0.8em;
 }
-button {
+input {
 	color:white;
 	background: #64D2A3;
 	width:25%;
@@ -331,6 +333,7 @@ button {
 }
 
 .faq-text-title {
+	text-align: left;
 	font-size:1em;
 	font-weight: bold;
 	padding:1.5% 20% 0 19%;
@@ -339,6 +342,7 @@ button {
 	color:#5FD0A1;
 }
 .faq-text-msg {
+	text-align: left;
 	padding:1.2% 15% 0 17.5%;
 	font-size:0.75em;
 	transform: scale(0.95);
@@ -359,7 +363,7 @@ button {
 .contact-text-phone {
 	font-size:1em;
 	font-weight: bold;
-	padding:3% 0 2% 45.1%;
+	padding:3% 0 2% 0%;
 }
 .contact-text-phone:after {
 	content:"11111 111 1111";
@@ -373,6 +377,8 @@ button {
 	justify-content: center;
 }
 .contact-input input {
+	text-align: left;
+	background-color: white;
 	width: 29%;
 	font-size:0.8em;
 	color:#C1C1C1;
