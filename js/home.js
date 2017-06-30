@@ -15,7 +15,7 @@
     for(i=0;i<8;i++) {
       $(".nav > li > a").eq(i).css({"background-color":"white","font-weight":"lighter"});
     }
-    $(this).css({"background-color":"rgba(255,255,255,0.8)","font-weight":"bold"});
+    $(this).css({"background-color":"rgba(255,255,255,0.8)","font-weight":"900"});
    
   });
 

@@ -5,6 +5,9 @@
  * @date    2017-06-30 15:19:47
  * @version $Id$
  */
+  .nav-styles{
+ 	font-weight: 900;
+ }
  @media screen and (min-width: 981px)
  {
  	.home-type {

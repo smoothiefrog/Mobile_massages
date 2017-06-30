@@ -5,6 +5,9 @@
  * @date    2017-06-30 13:59:47
  * @version $Id$
  */
+ .nav-faq{
+ 	font-weight: 900;
+ }
  @media screen and (min-width: 980px)
  {
  	.home-faq {
