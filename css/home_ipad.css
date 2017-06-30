@@ -154,56 +154,42 @@ input {
 .border {
 	box-sizing: border-box;
 	width:33.3%;
-	padding:0;
+	padding:0% 2% 0 0%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
 .border-img {
-	width:30%;
-	height:70%;
+	width:35%;
 	background: #D8FBE7;
 	overflow: hidden;
-	margin: 5% 0 0 0;
+	transform: scale(0.8);
 }
 .border-img-cal {
-	width:30%;
-	height:65%;
-	background: #D8FBE7;
+	width:35%;
 	overflow: hidden;
-	margin: 5.5% 0 0 0;
+	margin-top:3%;
 	transform: scale(0.9);
 }
 .fa-home {
-	position: relative;
-	top:-18.5%;
-	left:-21%;
+	width:100%;
 	color:#5FD0A1;
 	border:0;
-	transform: scale(0.8);
 }
 .fa-codiepie {
-	position: relative;
-	top:-18.5%;
-	left:-21%;
 	color:#5FD0A1;
 	border:0;
-	transform: scale(0.8);
 }
 .fa-calculator {
-	position: relative;
-	top:-9.5%;
-	left:-11%;
 	color:#5FD0A1;
 	border:0;
-	transform: scale(0.9);
-	margin:0;
 }
 .border-msg {
+	text-align: left;
 	width:65%;
 	background: #D8FBE7;
-	padding:6% 0 0 1.5%;
+	padding:6% 0 0 1%;
 	font-size: 0.85em;
 	padding: 13% 0 0 0;
 }
@@ -249,28 +235,19 @@ input {
 	padding-bottom: 8%;
 }
 .type-block-img {
-	width:18%;
+	width:25%;
 	height:80%;
 	overflow: hidden;
 	margin:2% 0 0 0;
+	transform: scale(0.9);
 }
-.type-left {
-	position: relative;
+.type-block-img i {
+	width:100%;
 	color:#5FD0A1;
-	transform: scale(0.8);
-	position: relative;
-	left:-10%;
 }
-.type-right {
-	position: relative;
-	color:#5FD0A1;
-	transform: scale(0.8);
-	position: relative;
-	left:0%;
-}
-
 .type-block-msg {
-	width:75%;
+	text-align: left;
+	width:70%;
 	color:#5FD0A1;
 	font-size: 1.6em;
 	font-weight: bold;

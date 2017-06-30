@@ -169,19 +169,17 @@ input {
 }
 
 .home-mobile-book {
-	padding:3% 0 6% 0;
+	padding:3% 0 8% 0;
 }
 .home-border {
-	width:100%;
 	width:70%;
 	margin-left:15%;
-	margin-top:7%;
+	margin-top:2%;
 }
 
 .border {
 	box-sizing: border-box;
 	width:100%;
-	
 	display: flex;
 	flex-wrap: wrap;
 	overflow: hidden;
@@ -192,44 +190,38 @@ input {
 .border-img {
 	width:26%;
 	overflow: hidden;
-	margin-bottom: -4.5%;
-	transform: scale(0.9);
+	margin: 0 0 0 -5%;
 }
-.border-img-cal {
-	width:23%;
-	overflow: hidden;
-	margin-top: -2.5%;
-	margin-bottom: -5%;
-	transform: scale(0.90);
-}
+
 .fa-home {
-	position: relative;
+	width:100%;
 	color:#5FD0A1;
-	margin:-20% 0 0 -25%;
+	border:0px;
+	transform: scale(0.6);
 }
 .fa-codiepie {
-	position: relative;
+	width:100%;
 	color:#5FD0A1;
-	border:0;
-	margin:-5% 0 0 -25%;
+	border:0px;
+	transform: scale(0.62);
 }
 .fa-calculator {
-	position: relative;
+	margin-top:10%;
+	margin-left:3%;
+	width:100%;
 	color:#5FD0A1;
-	margin:-5% 0 0 -15%;
-
 	transform: scale(1);
+	border:0px;
+	transform: scale(0.6);
 }
 
 .border-msg {
-	width:74%;
-	padding:8% 4% 2% 1%;
+	text-align: left;
+	width:70%;
+	padding:8% 0% 2% 1%;
 	font-size: 1.1em;
 }
-.border-msg-cal {
-	width:77%;
-	padding:0% 0% 1% 5%;
-}
+
 
 
 .professional-therapist {
@@ -298,10 +290,12 @@ input {
 	display: none;
 }
 .type-block-left {
+	width:50%;
 	color:#28AB8B;
 	background-color: #F2FDF7;
 }
 .type-block-right {
+	width:50%;
 	color:#F2FDF7;
 	background-color: #5FD0A1;
 }
