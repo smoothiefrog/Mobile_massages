@@ -6,84 +6,84 @@
  * @version $Id$
  */
  @media screen and (min-width:1024px){
- /*头部*/
- #header {
-	padding: 0 5% 0 2.3%;
-	background-color: #fff;
-	border-bottom: 1px solid #e2fcef;
-}
-.head-login {
-	width:0;
-	position:absolute;
-	visibility:hidden;
-}
-.nav > li {
-	font-size: 0.85em;
-	text-align: center;
-	padding:0% 0 0% 0;
-	margin-right:-1.5%;
-}
-.nav-home {
-	display: flex;
-	flex-wrap: wrap;
-}
-.head-title{
-	display: flex;
-}
-.head-title-left{
-	color: #64d2a3;
-	margin-right: 5%;
-	font-weight: 100;
-}
-.head-title-right{
-	color: #64d2a3;
-	font-weight: 500;
-}
-.nav-sign {
-	margin: 0;
-}
-.fn-color-green{
-	color: #64d2a3;
-	float: right;
-	margin-right: 0;
-}
-}
-/*尾部*/
-.home-bottom {
-width: 100%;
-background: #28AB8B;
-height: 170px;
-padding-top: 50px;
-margin-top: 65px;
-}
-.bottom-massage {
-text-align: center;
-color:white;
-font-size: 1.2em;
-}
-.bottom-massage span {
-font-weight: bold;
-}
-.bottom-text {
-color:white;
-text-align: center;
-font-size:0.75em; 
-margin-top: 20px;
-}
-/*页面主体*/
-.booking_body{
-	width: 40%;
-	margin-top: 90px;
-}
-/*步骤 1 2 3 4*/
-.booking_body_page {
-	margin-top: 40px;
-	width: 73%;
-	height: 64px;
-	border-top: 2px solid #e2fcef;
-	border-bottom: 2px solid #e2fcef;
+ 	/*头部*/
+ 	#header {
+ 		padding: 0 5% 0 2.3%;
+ 		background-color: #fff;
+ 		border-bottom: 1px solid #e2fcef;
+ 	}
+ 	.head-login {
+ 		width:0;
+ 		position:absolute;
+ 		visibility:hidden;
+ 	}
+ 	.nav > li {
+ 		font-size: 0.85em;
+ 		text-align: center;
+ 		padding:0% 0 0% 0;
+ 		margin-right:-1.5%;
+ 	}
+ 	.nav-home {
+ 		display: flex;
+ 		flex-wrap: wrap;
+ 	}
+ 	.head-title{
+ 		display: flex;
+ 	}
+ 	.head-title-left{
+ 		color: #64d2a3;
+ 		margin-right: 5%;
+ 		font-weight: 100;
+ 	}
+ 	.head-title-right{
+ 		color: #64d2a3;
+ 		font-weight: 500;
+ 	}
+ 	.nav-sign {
+ 		margin: 0;
+ 	}
+ 	.fn-color-green{
+ 		color: #64d2a3;
+ 		float: right;
+ 		margin-right: 0;
+ 	}
+ }
+ /*尾部*/
+ .home-bottom {
+ 	width: 100%;
+ 	background: #28AB8B;
+ 	height: 170px;
+ 	padding-top: 50px;
+ 	margin-top: 65px;
+ }
+ .bottom-massage {
+ 	text-align: center;
+ 	color:white;
+ 	font-size: 1.2em;
+ }
+ .bottom-massage span {
+ 	font-weight: bold;
+ }
+ .bottom-text {
+ 	color:white;
+ 	text-align: center;
+ 	font-size:0.75em; 
+ 	margin-top: 20px;
+ }
+ /*页面主体*/
+ .booking_body{
+ 	width: 40%;
+ 	margin-top: 90px;
+ }
+ /*步骤 1 2 3 4*/
+ .booking_body_page {
+ 	margin-top: 40px;
+ 	width: 73%;
+ 	height: 64px;
+ 	border-top: 2px solid #e2fcef;
+ 	border-bottom: 2px solid #e2fcef;
 /*	font-family: "方正兰亭超细黑简体";
-	font-size: 200%;*/
+font-size: 200%;*/
 }
 .booking_body_page ul{
 	width: 73%;
@@ -99,10 +99,10 @@ margin-top: 20px;
 	color: #ccc;
 	font-size: 2vmax;
 	line-height: 55px;
-/*	font-weight: 900;*/
+	/*	font-weight: 900;*/
 }
 .bookpace_num_b {
-    color: #666666;
+	color: #666666;
 	font-size: 3vmax;
 	line-height: 48px;
 }
@@ -155,16 +155,16 @@ margin-top: 20px;
 .choose_main_title{
 	font-size:1.5vmax; 
 	font-family:"方正兰亭超细黑简体";
-    color: gray;
-    font-weight: bold;
-    margin: 20px 0 25px 0;
+	color: gray;
+	font-weight: bold;
+	margin: 20px 0 25px 0;
 }
 .choose_sub_title{
-    font-weight: bold;
-    font-family:"方正兰亭超细黑简体";
-    font-size: 1.8vmax;
-    color: black;
-    margin-bottom: 40px;
+	font-weight: bold;
+	font-family:"方正兰亭超细黑简体";
+	font-size: 1.8vmax;
+	color: black;
+	margin-bottom: 40px;
 }
 .therapists_row{
 	width: 100%;
@@ -180,10 +180,10 @@ margin-top: 20px;
 }
 .therapist_name{
 	/*font-family:"方正兰亭超细黑简体";*/
-    font-size: 1.2vmax;
-    color: #64d2a3;
-    font-weight: bolder;
-    margin-top: 6px;
+	font-size: 1.2vmax;
+	color: #64d2a3;
+	font-weight: bolder;
+	margin-top: 6px;
 }
 .therapist_intro{
 	width: 100%;
@@ -197,16 +197,16 @@ margin-top: 20px;
 	text-align: left;
 	margin: 0px;
 	font-family:"方正兰亭超细黑简体";
-    font-size: 1.4vmax;
-    color: #28ab8b;
-    font-weight: 900;
+	font-size: 1.4vmax;
+	color: #28ab8b;
+	font-weight: 900;
 }
 .therapist_intro_content{
 	text-align: justify;
 	font-family:"方正兰亭超细黑简体";
-    font-size: 1.1vmax;
-    color: black;
-    font-weight: 900;
+	font-size: 1.1vmax;
+	color: black;
+	font-weight: 900;
 }
 /*继续按钮*/
 .booking_continue{
@@ -247,402 +247,402 @@ margin-top: 20px;
 }
 /*ipad端自适应*/
 @media screen and (min-width: 736px) and (max-width: 1023px){
-/*头部*/
-#header {
-	padding: 0 5% -1% 2.3%;
-	background-color: #fff;
-	margin-top:-0.5%;
-	margin-bottom: -1%;
-	border-bottom: 1px solid #e2fcef;
-}
-.head-login {
-	width:0;
-	position:absolute;
-	visibility:hidden;
-}
+	/*头部*/
+	#header {
+		padding: 0 5% -1% 2.3%;
+		background-color: #fff;
+		margin-top:-0.5%;
+		margin-bottom: -1%;
+		border-bottom: 1px solid #e2fcef;
+	}
+	.head-login {
+		width:0;
+		position:absolute;
+		visibility:hidden;
+	}
 
-.nav {
-	display: flex;
-	justify-content: flex-end;
-}
-.nav-home {
-	margin:0% 0% 0 -3%;
-}
-.head-sign {
-	width:105%;
-	margin-right: 28%;
-}
-.nav > li {
-	font-size: 0.85em;
-	text-align: center;
-	padding:0% 0 0% 0;
-	margin-left:-3.2%;
-	transform: scale(0.85);
-}
-.nav-home {
-	display: flex;
-	flex-wrap: wrap;
-}
-.head-title{
-	display: flex;
-}
+	.nav {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.nav-home {
+		margin:0% 0% 0 -3%;
+	}
+	.head-sign {
+		width:105%;
+		margin-right: 28%;
+	}
+	.nav > li {
+		font-size: 0.85em;
+		text-align: center;
+		padding:0% 0 0% 0;
+		margin-left:-3.2%;
+		transform: scale(0.85);
+	}
+	.nav-home {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.head-title{
+		display: flex;
+	}
 
-.head-title-left{
-	color: #64d2a3;
-	margin-right: 4%;
-	font-weight: 100;
-	font-size: 0.8em;
-	transform: scale(0.9);
-}
-.head-title-right{
-	color: #64d2a3;
-	font-weight: 600;
-	font-size: 0.8em;
-	transform: scale(0.9);
-}
+	.head-title-left{
+		color: #64d2a3;
+		margin-right: 4%;
+		font-weight: 100;
+		font-size: 0.8em;
+		transform: scale(0.9);
+	}
+	.head-title-right{
+		color: #64d2a3;
+		font-weight: 600;
+		font-size: 0.8em;
+		transform: scale(0.9);
+	}
 
-.fn-color-green{
-	color: #64d2a3;
-	float: right;
-	padding-top: 1%;
-}
-/*页面主体*/
-.booking_body{
-	width: 60%;
-	margin-top: 80px;
-}
-.booking_body_page {
-	width: 100%;
-}
-.booking_guide_title{
-	font-size: 2.5vmax;
-	font-weight: 600;
-}
-.therapist_intro{
-	height: 230px;
-}
+	.fn-color-green{
+		color: #64d2a3;
+		float: right;
+		padding-top: 1%;
+	}
+	/*页面主体*/
+	.booking_body{
+		width: 60%;
+		margin-top: 80px;
+	}
+	.booking_body_page {
+		width: 100%;
+	}
+	.booking_guide_title{
+		font-size: 2.5vmax;
+		font-weight: 600;
+	}
+	.therapist_intro{
+		height: 230px;
+	}
 }
 /*手机端横屏自适应*/
 @media screen and (min-width: 415px) and (max-width: 736px){
-/*头部*/
-body {
- 	opacity: 1;
- 	z-index: -1;
- }
- .head-background {
-	width:100%;
-	height: 100%;
-	position: fixed;
-	left: 0;
-	top:0;
-	z-index: 1;
-	background-color:rgba(0,0,0,0.35);
-}
+	/*头部*/
+	body {
+		opacity: 1;
+		z-index: -1;
+	}
+	.head-background {
+		width:100%;
+		height: 100%;
+		position: fixed;
+		left: 0;
+		top:0;
+		z-index: 1;
+		background-color:rgba(0,0,0,0.35);
+	}
 
-#header {
-	width:100%;
-	height:8%;
-	background-color: #fff;
-	margin-top:-2.4%;
-	border-bottom: 1px solid #e2fcef;
-}
+	#header {
+		width:100%;
+		height:8%;
+		background-color: #fff;
+		margin-top:-2.4%;
+		border-bottom: 1px solid #e2fcef;
+	}
 
-.navbar-toggle {
-	position: absolute;
-	left:90%;
-	padding: 0% 0 1% 0;
-	width:8%;
-	background-color: #fff;
-	border:0;
-}
-.nav-sign {
-	display: none;
-	width:0;
-	height: 0;
-}
-.navbar {
-	width:100%;
-	height: 100%;
-	z-index: 11;
-}
-.nav {
-	margin-top:-1.7%;
-}
-.nav li {
-	margin-top: -1.5%;
-	
-}
-.nav li a {
-	font-size: 0.95em;
-	width:100%;
-	padding:2% 0 2% 5%;
-	background-color: white;
-	border-top: 1px solid #C1C1C1;
-}
+	.navbar-toggle {
+		position: absolute;
+		left:90%;
+		padding: 0% 0 1% 0;
+		width:8%;
+		background-color: #fff;
+		border:0;
+	}
+	.nav-sign {
+		display: none;
+		width:0;
+		height: 0;
+	}
+	.navbar {
+		width:100%;
+		height: 100%;
+		z-index: 11;
+	}
+	.nav {
+		margin-top:-1.7%;
+	}
+	.nav li {
+		margin-top: -1.5%;
+		
+	}
+	.nav li a {
+		font-size: 0.95em;
+		width:100%;
+		padding:2% 0 2% 5%;
+		background-color: white;
+		border-top: 1px solid #C1C1C1;
+	}
 
 
-.head-title {
-	padding-top:1%;
-	display: flex;
-	justify-content: center;
-}
-.head-title-left {
-	color: #64d2a3;
-	margin-right: 2%;
-	font-weight: 100;
-	font-size: 0.85em;
-}
-.head-title-right{
-	color:  #64d2a3;
-	font-weight: 600;
-	font-size: 0.85em;
-}
-.navbar-header {
-	display: flex;
-	justify-content: center;
-	margin-bottom: -2.8%;
-	padding-top:3%;
-}
-.navbar-header h6 {
-	font-size:1.3em;
-	color:#C1C1C1;
-	position: relative;
-	left:-40%;
-	top:-50%;
-}
+	.head-title {
+		padding-top:1%;
+		display: flex;
+		justify-content: center;
+	}
+	.head-title-left {
+		color: #64d2a3;
+		margin-right: 2%;
+		font-weight: 100;
+		font-size: 0.85em;
+	}
+	.head-title-right{
+		color:  #64d2a3;
+		font-weight: 600;
+		font-size: 0.85em;
+	}
+	.navbar-header {
+		display: flex;
+		justify-content: center;
+		margin-bottom: -2.8%;
+		padding-top:3%;
+	}
+	.navbar-header h6 {
+		font-size:1.3em;
+		color:#C1C1C1;
+		position: relative;
+		left:-40%;
+		top:-50%;
+	}
 
-.head-login-li {
-	width:100%;
-	padding:2% 0 30% 0%;
-	background-color: white;
-}
-/*页面主体*/
-.booking_body{
-	width: 60%;
-	margin-top: 50px;
-}
-/*步骤 1 2 3 4*/
-.booking_body_page {
-	width: 100%;
-}
-.bookpace_num_b,.bookpace_num {
-	font-size: 3.8vmax;
-	line-height: 60px;
-}
-.bookpace_num_b {
-	font-size: 5.5vmax;
-	line-height: 55px;
-}
-/*步骤名称*/
-.booking_guide_title{
-	font-size: 4.5vmax;
-	font-weight: 600;
-}
-/*选项_下拉菜单*/
-.guide_text{
-	margin: 10px 0 0 15%;
-	font-size: 2.2vmax;
-}
-.booking_options_select{
-	width: 70%;
-	height: 50px;
-	font-size: 2vmax;
-}
-.booking_options_select span{
-	font-size: 2.8vmax;
-}
-.dropdown-menu{
-	left: 15%;
-	width: 70%;
-}
-/*选择按摩师*/
-.choose_main_title{
-	font-size:2.3vmax; 
-    margin: 35px 0 15px 0;
-}
-.therapist_intro_name{
-	margin: 10px 0 10px 0;
-    font-size: 2.8vmax;
-}
-/*继续按钮*/
-.booking_continue{
-	margin-top: 0px;
-}
-.booking_btn_continue{
-	width: 80%;
-	height: 45px;
-	font-size: 2.5vmax;
-}
-.booking_continue p{
-	width: 70%;
-}
+	.head-login-li {
+		width:100%;
+		padding:2% 0 30% 0%;
+		background-color: white;
+	}
+	/*页面主体*/
+	.booking_body{
+		width: 60%;
+		margin-top: 50px;
+	}
+	/*步骤 1 2 3 4*/
+	.booking_body_page {
+		width: 100%;
+	}
+	.bookpace_num_b,.bookpace_num {
+		font-size: 3.8vmax;
+		line-height: 60px;
+	}
+	.bookpace_num_b {
+		font-size: 5.5vmax;
+		line-height: 55px;
+	}
+	/*步骤名称*/
+	.booking_guide_title{
+		font-size: 4.5vmax;
+		font-weight: 600;
+	}
+	/*选项_下拉菜单*/
+	.guide_text{
+		margin: 10px 0 0 15%;
+		font-size: 2.2vmax;
+	}
+	.booking_options_select{
+		width: 70%;
+		height: 50px;
+		font-size: 2vmax;
+	}
+	.booking_options_select span{
+		font-size: 2.8vmax;
+	}
+	.dropdown-menu{
+		left: 15%;
+		width: 70%;
+	}
+	/*选择按摩师*/
+	.choose_main_title{
+		font-size:2.3vmax; 
+		margin: 35px 0 15px 0;
+	}
+	.therapist_intro_name{
+		margin: 10px 0 10px 0;
+		font-size: 2.8vmax;
+	}
+	/*继续按钮*/
+	.booking_continue{
+		margin-top: 0px;
+	}
+	.booking_btn_continue{
+		width: 80%;
+		height: 45px;
+		font-size: 2.5vmax;
+	}
+	.booking_continue p{
+		width: 70%;
+	}
 }
 
 /*手机端竖屏自适应*/
 @media screen and (max-width: 414px){
-/*头部*/
-body {
- 	opacity: 1;
- 	z-index: -1;
- }
- .head-background {
-	width:100%;
-	height: 100%;
-	position: fixed;
-	left: 0;
-	top:0;
-	z-index: 1;
-	background-color:rgba(0,0,0,0.35);
-}
+	/*头部*/
+	body {
+		opacity: 1;
+		z-index: -1;
+	}
+	.head-background {
+		width:100%;
+		height: 100%;
+		position: fixed;
+		left: 0;
+		top:0;
+		z-index: 1;
+		background-color:rgba(0,0,0,0.35);
+	}
 
-#header {
-	width:100%;
-	height:8%;
-	background-color: #fff;
-	margin-top:-2%;
-	border-bottom: 1px solid #e2fcef;
-}
+	#header {
+		width:100%;
+		height:8%;
+		background-color: #fff;
+		margin-top:-2%;
+		border-bottom: 1px solid #e2fcef;
+	}
 
-.navbar-toggle {
-	position: absolute;
-	left:90%;
-	margin-top: 1%;
-	padding: 3% 0 0% 0;
-	width:8%;
-	background-color: #fff;
-	border:0;
-}
-.nav-sign {
-	display: none;
-	width:0;
-	height: 0;
-}
-.navbar {
-	width:100%;
-	height: 100%;
-	z-index: 11;
-}
+	.navbar-toggle {
+		position: absolute;
+		left:90%;
+		margin-top: 1%;
+		padding: 3% 0 0% 0;
+		width:8%;
+		background-color: #fff;
+		border:0;
+	}
+	.nav-sign {
+		display: none;
+		width:0;
+		height: 0;
+	}
+	.navbar {
+		width:100%;
+		height: 100%;
+		z-index: 11;
+	}
 
-.nav {
-	margin-top:-1.7%;
-}
-.nav li {
-	margin-top: -1.5%;
-	
-}
-.nav li a {
-	font-size: 0.95em;
-	width:100%;
-	padding:-5% 0 2% 5%;
-	background-color: white;
-	border-top: 1px solid #C1C1C1;
-}
+	.nav {
+		margin-top:-1.7%;
+	}
+	.nav li {
+		margin-top: -1.5%;
+		
+	}
+	.nav li a {
+		font-size: 0.95em;
+		width:100%;
+		padding:-5% 0 2% 5%;
+		background-color: white;
+		border-top: 1px solid #C1C1C1;
+	}
 
 
-.head-title {
-	padding-top:4.5%;
-	display: flex;
-	justify-content: center;
-}
-.head-title-left {
-	color: #64d2a3;
-	margin-right: 2%;
-	font-weight: 100;
-	font-size: 0.85em;
-}
-.head-title-right{
-	color:  #64d2a3;
-	font-weight: 600;
-	font-size: 0.85em;
-}
-.navbar-header {
-	display: flex;
-	justify-content: center;
-	margin-bottom: -1.8%;
-	padding-top:2%;
-}
-.navbar-header h6 {
-	font-size:1.3em;
-	color:#C1C1C1;
-	position: relative;
-	left:-6%;
-	top:-55%;
-}
+	.head-title {
+		padding-top:4.5%;
+		display: flex;
+		justify-content: center;
+	}
+	.head-title-left {
+		color: #64d2a3;
+		margin-right: 2%;
+		font-weight: 100;
+		font-size: 0.85em;
+	}
+	.head-title-right{
+		color:  #64d2a3;
+		font-weight: 600;
+		font-size: 0.85em;
+	}
+	.navbar-header {
+		display: flex;
+		justify-content: center;
+		margin-bottom: -1.8%;
+		padding-top:2%;
+	}
+	.navbar-header h6 {
+		font-size:1.3em;
+		color:#C1C1C1;
+		position: relative;
+		left:-6%;
+		top:-55%;
+	}
 
-.head-login-li {
-	width:100%;
-	padding:2% 0 38% 0%;
-	background-color: white;
-}
-/*尾部*/
-.home-bottom {
-height: 150px;
-padding-top: 30px;
-}
-/*页面主体*/
-.booking_body{
-	width: 100%;
-	margin-top: 70px;
-}
-/*步骤 1 2 3 4*/
-.booking_body_page {
-	width: 100%;
-	height: 75px;
-}
-.bookpace_num_b,.bookpace_num {
-	font-size: 3.8vmax;
-	line-height: 75px;
-}
-.bookpace_num_b {
-	font-size: 5vmax;
-	line-height: 68px;
-}
-/*步骤名称*/
-.booking_guide_title{
-	margin: 30px 0 30px 0;
-	font-size: 2.8vmax;
-}
-/*选项_下拉菜单*/
-.guide_text{
-	margin: 10px 0 0 10%;
-	font-size: 2.2vmax;
-}
-.booking_options_select{
-	width: 80%;
-	height: 50px;
-	font-size: 2vmax;
-}
-.booking_options_select span{
-	font-size: 2.8vmax;
-}
-.dropdown-menu{
-	left: 10%;
-	width: 80%;
-}
-/*选择按摩师*/
-.choose_main_title{
-	font-size:2vmax; 
-    margin: 35px 0 15px 0;
-}
-.mobile_hide{
-	display: none;
-}
-.therapist_intro_name{
-	margin: 10px 0 10px 0;
-    font-size: 2.8vmax;
-}
-/*继续按钮*/
-.booking_continue{
-	margin-top: 0px;
-}
-.booking_btn_continue{
-	width: 80%;
-	height: 45px;
-	font-size: 2.5vmax;
-}
-.booking_continue p{
-	width: 70%;
-}
+	.head-login-li {
+		width:100%;
+		padding:2% 0 38% 0%;
+		background-color: white;
+	}
+	/*尾部*/
+	.home-bottom {
+		height: 150px;
+		padding-top: 30px;
+	}
+	/*页面主体*/
+	.booking_body{
+		width: 100%;
+		margin-top: 70px;
+	}
+	/*步骤 1 2 3 4*/
+	.booking_body_page {
+		width: 100%;
+		height: 75px;
+	}
+	.bookpace_num_b,.bookpace_num {
+		font-size: 3.8vmax;
+		line-height: 75px;
+	}
+	.bookpace_num_b {
+		font-size: 5vmax;
+		line-height: 68px;
+	}
+	/*步骤名称*/
+	.booking_guide_title{
+		margin: 30px 0 30px 0;
+		font-size: 2.8vmax;
+	}
+	/*选项_下拉菜单*/
+	.guide_text{
+		margin: 10px 0 0 10%;
+		font-size: 2.2vmax;
+	}
+	.booking_options_select{
+		width: 80%;
+		height: 50px;
+		font-size: 2vmax;
+	}
+	.booking_options_select span{
+		font-size: 2.8vmax;
+	}
+	.dropdown-menu{
+		left: 10%;
+		width: 80%;
+	}
+	/*选择按摩师*/
+	.choose_main_title{
+		font-size:2vmax; 
+		margin: 35px 0 15px 0;
+	}
+	.mobile_hide{
+		display: none;
+	}
+	.therapist_intro_name{
+		margin: 10px 0 10px 0;
+		font-size: 2.8vmax;
+	}
+	/*继续按钮*/
+	.booking_continue{
+		margin-top: 0px;
+	}
+	.booking_btn_continue{
+		width: 80%;
+		height: 45px;
+		font-size: 2.5vmax;
+	}
+	.booking_continue p{
+		width: 70%;
+	}
 
 }
 
