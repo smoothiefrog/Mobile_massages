@@ -309,8 +309,9 @@
  	.navbar-toggle {
  		position: absolute;
  		left:90%;
- 		padding: 0% 0 1% 0;
+ 		padding: 0;
  		width:8%;
+ 		margin-top:0.5%;
  		background-color: #fff;
  		border:0;
  	}
@@ -328,7 +329,7 @@
  		margin-top:-1.7%;
  	}
  	.nav li {
- 		margin-top: -1.5%;
+ 		margin-top: -1.4%;
 
  	}
  	.nav li a {
@@ -341,7 +342,7 @@
 
 
  	.head-title {
- 		padding-top:1%;
+ 		padding-top:0.5%;
  		display: flex;
  		justify-content: center;
  	}
@@ -367,7 +368,7 @@
  		color:#C1C1C1;
  		position: relative;
  		left:-40%;
- 		top:-50%;
+ 		top:-30%;
  	}
 
  	.head-login-li {

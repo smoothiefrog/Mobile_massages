@@ -26,7 +26,7 @@
 	line-height: 55px;
 }
 .bookpace_num_b {
-    color: #666666;
+	color: #666666;
 	font-size: 3vmax;
 	line-height: 48px;
 }
@@ -172,86 +172,86 @@
 }
 /*ipad端自适应*/
 @media screen and (max-width: 1024px){
-.booking_body{
-	width: 60%;
-}
-/*步骤 1 2 3 4*/
-.booking_body_page {
-	width: 100%;
-	height: 90px;
-}
-.bookpace_num_b,.bookpace_num {
-	font-size: 4vmax;
-	line-height: 85px;
-}
-.bookpace_num_b {
-	font-size: 5.5vmax;
-	line-height: 80px;
-}
-/*步骤名称*/
-.booking_guide_title{
-	font-size:4vmax;
-	font-weight: 600;
-}
-/*填写地址*/
-.booking_address_info{
-	width: 60%;
-}
-.booking_address{
-	margin: 10px 0 5px 0;
-	font-size: 1.5vmax;
-}
-.booking_street_info{
-	height: 45px;
-}
-.booking_address_1{
-	margin: 10px 0 5px 10%;
-	font-size: 1.5vmax;
-}
-.booking_order_sum_p1{
-	font-size:2.5vmax;
-	font-weight: 600;
-	padding: 8px 8% 0 4%;
-}
-/*继续按钮*/
-.booking_btn_continue{
-	width: 50%;
-	height: 55px;
-	font-size: 1.5vmax;
-}
-.booking_continue h4{
-	margin-bottom: 50px;
-}
+	.booking_body{
+		width: 60%;
+	}
+	/*步骤 1 2 3 4*/
+	.booking_body_page {
+		width: 100%;
+		height: 90px;
+	}
+	.bookpace_num_b,.bookpace_num {
+		font-size: 4vmax;
+		line-height: 85px;
+	}
+	.bookpace_num_b {
+		font-size: 5.5vmax;
+		line-height: 80px;
+	}
+	/*步骤名称*/
+	.booking_guide_title{
+		font-size:4vmax;
+		font-weight: 600;
+	}
+	/*填写地址*/
+	.booking_address_info{
+		width: 60%;
+	}
+	.booking_address{
+		margin: 10px 0 5px 0;
+		font-size: 1.5vmax;
+	}
+	.booking_street_info{
+		height: 45px;
+	}
+	.booking_address_1{
+		margin: 10px 0 5px 10%;
+		font-size: 1.5vmax;
+	}
+	.booking_order_sum_p1{
+		font-size:2.5vmax;
+		font-weight: 600;
+		padding: 8px 8% 0 4%;
+	}
+	/*继续按钮*/
+	.booking_btn_continue{
+		width: 50%;
+		height: 55px;
+		font-size: 1.5vmax;
+	}
+	.booking_continue h4{
+		margin-bottom: 50px;
+	}
 }
 /*手机端横屏自适应*/
 @media screen and (min-width: 415px) and (max-width: 735px){
-.booking_body{
-	width: 80%;
-}
-.booking_order_sum_p1{
-	font-size:3.5vmax;
-	font-weight: 600;
-	padding: 8px 8% 0 4%;
-}
+	.booking_body{
+		width: 80%;
+	}
+	.booking_order_sum_p1{
+		font-size:3.5vmax;
+		font-weight: 600;
+		padding: 8px 8% 0 4%;
+	}
 }
 /*手机端竖屏自适应*/
 @media screen and (max-width: 414px){
-.booking_body{
-	width: 100%;
-}
-/*步骤 1 2 3 4*/
-.booking_body_page {
-	width: 100%;
-	height: 65px;
-}
-.bookpace_num_b,.bookpace_num {
-	font-size: 4vmax;
-	line-height: 60px;
-}
-.bookpace_num_b {
-	font-size: 5.5vmax;
-	line-height: 55px;
-}
+	.booking_body{
+		width: 100%;
+	}
+	/*步骤 1 2 3 4*/
+	.booking_body_page {
+		width: 100%;
+		height: 65px;
+	}
+	.bookpace_num_b,.bookpace_num {
+		font-size: 4vmax;
+		line-height: 60px;
+	}
+	.bookpace_num_b {
+		font-size: 5.5vmax;
+		line-height: 55px;
+	}
 }
 .nav-booking { 
 	font-weight:900;
