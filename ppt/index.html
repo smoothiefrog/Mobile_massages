@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Web PPT</title>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Web项目开发实践  </h1>
+				</section>
+				<section data-background-transition="zoom" data-background="#dddddd">
+					<section  data-markdown>
+						## 项目描述
+						-------------
+						* 根据所给材料，使用HTML5 编写响应式网站，实现页面的PC 端、Mobile 和Ipad的自适应
+					</section>
+					<section data-markdown>
+						## 项目成员以及负责板块
+						-------------
+						* 胡迪恒 028 (组长) 后台功能
+						* 许沈恬 020 登录注册界面 booking_page_1 booking_page_3 contact_us界面
+						* 吴倩倩 030 主界面 pricing界面 faq界面 styles界面
+						* 李芸婷 039 booking_page_2  booking_page_4-1 booking_page_4-2  booking_success booking_therapist_intro界面
+					</section>
+				</section>
+				<section data-markdown>
+					## 项目研发过程
+					* 遇到的问题
+					* 解决方案
+				</section>
+				<section>
+					<p class="fragment">刚开始不能很明确地知道这么多截图是哪一个跳转到哪一个（逻辑上没弄懂）</p>
+					<p class="fragment">导航栏并不能很好地契合各个界面</p>
+					<p class="fragment">自适应有一定的问题</p>
+				</section>
+				<section>
+					<p class="fragment">主页的导航栏是下滑功能  其他分界面的导航栏是跳转功能</p>
+					<p class="fragment">booking-2里面的下拉框不是select写的，而是用button写的</p>
+					<p class="fragment">之前页面填写或选择的信息能同步到最后的检查页面</p>
+				</section>
+				<section>
+					<h3>信息同步</h3>
+					<section>
+						<img src="img/time.png" class="fragment">
+						<img src="img/address.png" class="fragment">
+						<img src="img/info.png" class="fragment">
+						<img src="img/all.png" class="fragment">
+					</section>
+					<section>
+						<img src="img/user.png" class="fragment">
+						<img src="img/success.png" class="fragment">
+					</section>
+				</section>
+				<section>
+					<h3>BootStrap框架</h3>
+					<h3>PHP连接数据库</h3>
+					<p class="fragment">注册时将用户名以及密码插入数据库</p>
+					<p class="fragment">登录时判断用户名以及密码是否对应</p>
+					<p class="fragment">注册和登录时的异常处理、不同界面注册登录后进入不同页面</p>
+					<p class="fragment">booking_page1、booking_page2、booking_page4-1的信息同步在booking_page4-2</p>
+				</section>
+				<section>
+					<h3>遗憾未完成的地方</h3>
+					<img src="img/bug.png" class="fragment">
+					<p class="fragment">导入facebook的账户信息</p>
+					<p class="fragment">获得某些权限或者通过爬虫获取页面的账户信息</p>
+				</section>
+				<section data-markdown>
+					## 心得与体会
+					* 合作写项目与个人完成作业相比，开始前的项目设计、人员分工，项目进行中的交流与合作至关重要。
+					* 代码规范性、先进性需要进一步学习和提高。
+				</section>
+	</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+<script>
+	// More info about config & dependencies:
+	// - https://github.com/hakimel/reveal.js#configuration
+	// - https://github.com/hakimel/reveal.js#dependencies
+	Reveal.initialize({
+		dependencies: [
+			{ src: 'plugin/markdown/marked.js' },
+			{ src: 'plugin/markdown/markdown.js' },
+			{ src: 'plugin/notes/notes.js', async: true },
+			{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+		]
+	});
+</script>
+</body>
+</html>
