@@ -110,7 +110,7 @@
  	}
  }
  /*手机端横屏自适应*/
- @media screen and (min-width: 600px) and (max-width: 736px){
+ @media screen and (min-width: 500px) and (max-width: 736px){
  	/*页面主体*/
  	.booking_body{
  		width: 95%;
@@ -148,7 +148,7 @@
  	}
  }
  /*手机端竖屏自适应*/
- @media screen and (max-width: 600px){
+ @media screen and (max-width: 500px){
  	/*页面主体*/
  	.booking_body{
  		width: 100%;

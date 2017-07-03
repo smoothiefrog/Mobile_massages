@@ -135,7 +135,7 @@
  	}
 
  }
- @media screen and (min-width: 736px) and (max-width: 1024px){
+ @media screen and (min-width: 760px) and (max-width: 1024px){
  	#header {
  		padding: 0 5% -1% 2.3%;
  		background-color: #fff;
@@ -283,7 +283,7 @@
 
 
  }
- @media screen and (min-width: 401px) and (max-width: 735px){
+ @media screen and (min-width: 460px) and (max-width: 759px){
  	body {
  		opacity: 1;
  		z-index: -1;
@@ -470,7 +470,7 @@
  	}
 
  }
- @media screen and (max-width: 400px){
+ @media screen and (max-width: 459px){
  	body {
  		opacity: 1;
  		z-index: -1;

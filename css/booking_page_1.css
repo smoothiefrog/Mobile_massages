@@ -43,7 +43,7 @@
 	}
 }
 /*ipad*/
-@media(max-width: 1024px) and (min-width: 736px) {
+@media(max-width: 1024px) and (min-width: 760px) {
 	#header {
 	padding: 0 5% -1% 2.3%;
 	background-color: #fff;
@@ -104,7 +104,7 @@
 	}
 }
 /*landscape*/
-@media(max-width: 736px) and (min-width: 415px) {
+@media(max-width: 759px) and (min-width: 415px) {
 body {
  	opacity: 1;
  	z-index: -1;

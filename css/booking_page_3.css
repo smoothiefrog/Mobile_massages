@@ -79,7 +79,7 @@
 		padding-bottom: 5.5%;
 	}
 }
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) and (min-width: 760px) {
 	.home-bottom {
 	background: #28AB8B;
 	width: 100%;
@@ -100,7 +100,7 @@
 		padding-bottom: 5.5%;
 	}
 }
-@media (max-width: 768px) and (min-width: 414px) {
+@media (max-width: 760px) and (min-width: 415px) {
 	.home-bottom {
 	width: 100%;
 	display: flex;
@@ -128,7 +128,7 @@
 	}
 
 }
-@media (max-width: 414px) {
+@media (max-width: 415px) {
 	.home-bottom {
 	width: 100%;
 	display: flex;

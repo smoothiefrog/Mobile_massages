@@ -246,7 +246,7 @@ font-size: 200%;*/
 	text-decoration: none;
 }
 /*ipad端自适应*/
-@media screen and (min-width: 736px) and (max-width: 1023px){
+@media screen and (min-width: 760px) and (max-width: 1023px){
 	/*头部*/
 	#header {
 		padding: 0 5% -1% 2.3%;
@@ -323,7 +323,7 @@ font-size: 200%;*/
 	}
 }
 /*手机端横屏自适应*/
-@media screen and (min-width: 415px) and (max-width: 736px){
+@media screen and (min-width: 415px) and (max-width: 759px){
 	/*头部*/
 	body {
 		opacity: 1;
